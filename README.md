@@ -129,3 +129,4 @@ This project follows semantic versioning.
 **Jeremy B. Blevins**
 
 Cybersecurity Educator • Researcher • Cyber Threat Intelligence Analyst
+LinkedIn: [https://www.linkedin.com/in/jeremybblevins/](https://www.linkedin.com/in/jeremybblevins/])
