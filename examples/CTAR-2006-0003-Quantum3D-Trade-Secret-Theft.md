@@ -57,14 +57,14 @@ By the mid-2000s:
 
 # Threat Overview
 
-  Attribute                   Value
-  --------------------------- ------------------------------------------
-  Threat Type                 Economic Espionage
-  Initial Public Disclosure   14 December 2006
-  Primary Threat Vector       Insider Theft
-  Target                      Proprietary military simulation software
-  Industry                    Defense Technology
-  Malware Involved            None identified
+  |Attribute | Value|
+  |---------------------------|------------------------------------------|
+  |Threat Type | Economic Espionage|
+  |Initial Public Disclosure | 14 December 2006|
+  |Primary Threat Vector | Insider Theft|
+  |Target | Proprietary military simulation software|
+  |Industry | Defense Technology|
+  |Malware Involved | None identified|
 
 ------------------------------------------------------------------------
 
