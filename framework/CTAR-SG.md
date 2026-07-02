@@ -1,9 +1,16 @@
 # CTAR Style Guide (CTAR-SG)
 
 **Document ID:** CTAR-SG  
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Status:** Current  
 **Effective Date:** 1 July 2026
+
+---
+
+
+## Normative Language
+
+The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
 
 ---
 
@@ -286,6 +293,50 @@ CTAR reports shall include:
 - CTAR ID
 - Report Version
 - Framework Version
+
+---
+
+# 20. Evidence Traceability Standard
+
+## Evidence Identifiers
+
+Evidence identifiers **MUST** use the format:
+
+- E-001
+- E-002
+- E-003
+
+## Inline Evidence Citations
+
+Evidence **MUST** be cited inline using Evidence IDs.
+
+Example:
+
+> The Department of Justice announced charges against the subject [E-001].
+
+## Required Appendices
+
+Every CTAR **MUST** include:
+
+- Appendix A – Evidence Register
+- Appendix B – Evidence Traceability Matrix (ETM)
+
+## Evidence Register
+
+The Evidence Register **MUST** contain the following columns:
+
+- Evidence ID
+- Evidence
+- Type
+- Publication Date
+- Source Organization
+- Reliability
+- Authenticity
+- Used In
+- Hyperlink
+
+Hyperlinks **SHOULD** reference the original source whenever practical.
+
 
 ---
 
