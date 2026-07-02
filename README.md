@@ -36,15 +36,15 @@ The CTAR Framework is founded on the following principles:
 
 | Document | Description |
 |----------|-------------|
-| CTAR-MS | Methodology Specification |
-| CTAR-GC | Governance Charter |
-| CTAR-SG | Style Guide |
-| CTAR-CE | Code of Ethics & Analytical Conduct |
-| CTAR-AIPP | Artificial Intelligence Participation Policy |
-| CTAR-DAP | Data Authenticity Policy |
-| CTAR-SRM | Source Reliability Matrix |
-| CTAR-PSR | Publication Safety Review |
-| CTAR-RT | Report Template |
+| [CTAR-MS](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-MS.md) | Methodology Specification |
+| [CTAR-GC](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-GC.md) | Governance Charter |
+| [CTAR-SG](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-SG.md) | Style Guide |
+| [CTAR-CE](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-CE.md) | Code of Ethics & Analytical Conduct |
+| [CTAR-AIPP](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-AIPP.md) | Artificial Intelligence Participation Policy |
+| [CTAR-DAP](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-DAP.md) | Data Authenticity Policy |
+| [CTAR-SRM](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-SRM.md) | Source Reliability Matrix |
+| [CTAR-PSR](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-PSR.md) | Publication Safety Review |
+| [CTAR-RT](https://github.com/jeremyblevins/ctar/blob/main/framework/CTAR-RT.md) | Report Template |
 
 ---
 
