@@ -58,6 +58,7 @@ By the mid-2000s:
 # Threat Overview
 
   |Attribute | Value|
+  |----------------|----------------|
   |Threat Type | Economic Espionage|
   |Initial Public Disclosure | 14 December 2006|
   |Primary Threat Vector | Insider Theft|
@@ -117,10 +118,9 @@ Potential insider-threat indicators include:
 
 # MITRE ATT&CK Mapping (Approximate)
 
-  -----------------------------------------------------------------------
   |Technique | Description|
-  |Valid Accounts                   Authorized insider access|
-  |Data from Information            Collection of proprietary information|
+  |Valid Accounts |  Authorized insider access|
+  |Data from Information | Collection of proprietary information|
   |Repositories | |                   
   |Exfiltration | Removal of sensitive data|
   -----------------------------------------------------------------------
