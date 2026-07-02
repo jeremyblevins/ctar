@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Cyber Threat Assessment Report (CTAR) Framework"
+message: "If you use this framework, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Blevins"
+    given-names: "Jeremy B."
+title: "Cyber Threat Assessment Report (CTAR) Framework"
+version: "1.0.0"
+date-released: "2026-07-01"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/jeremyblevins/ctar"
+keywords:
+  - cybersecurity
+  - threat intelligence
+  - cyber threat assessment
+  - methodology
+  - education
