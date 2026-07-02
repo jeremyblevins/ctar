@@ -1,271 +1,187 @@
 # CTAR Report Template (CTAR-RT)
 
 **Document ID:** CTAR-RT  
-**Version:** 1.1.0  
+**Version:** 1.2.0  
 **Status:** Current  
 **Effective Date:** 1 July 2026
 
+---
+
 ## Normative Language
 
-The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
 
 ---
 
 # Cyber Threat Assessment Report (CTAR)
 
 **CTAR ID:** CTAR-YYYY-NNNN  
-**Report Version:** 1.0  
-**Framework Version:** 1.1.0  
+**Report Version:** 1.2.0  
+**Framework Version:** 1.2.0  
 **Classification:** Public Release  
 **Publication Date:** YYYY-MM-DD  
+**Assessment Type:**  
+**Subject:**  
 **Author(s):**  
 **Reviewer(s):**  
-**Assessment Type:**  
 **Status:** Draft | Review | Final
 
 ---
 
 # Executive Summary
 
-Provide a concise summary. Significant factual statements **MUST** be traceable to one or more Evidence IDs. of the assessment, including the threat, principal findings, and overall conclusions.
-
----
+Summarize the incident and principal findings. Significant factual statements **MUST** reference Evidence IDs.
 
 # Assessment Scope
-
-Describe:
 
 - Subject
 - Objectives
 - Scope limitations
 - Intended audience
-- Intelligence questions addressed
-
----
+- Intelligence questions
 
 # Historical Context
 
-Provide relevant historical or operational background necessary to understand the assessment.
-
----
+Provide operational or historical background.
 
 # Threat Overview
 
-Summarize:
-
-- Threat name
-- Aliases
-- Category
-- Discovery date
-- Current status
-- Platforms affected
-
----
+| Attribute | Value |
+|---|---|
+| Threat Type | |
+| Initial Disclosure | |
+| Threat Vector | |
+| Target | |
+| Industry | |
+| Malware Involved | |
 
 # Technical Assessment
 
-Describe technical characteristics including:
+Describe technical characteristics and reference supporting evidence.
 
-- Initial access
-- Execution
-- Persistence
-- Privilege escalation (if applicable)
-- Defense evasion
-- Discovery
-- Lateral movement
-- Collection
-- Command and control
-- Impact
+# Attack Lifecycle
 
-Not every subsection applies to every assessment.
+Delete rows that do not apply.
 
----
+| Phase | Activity |
+|---|---|
+| Initial Access | |
+| Execution | |
+| Persistence | |
+| Privilege Escalation | |
+| Defense Evasion | |
+| Discovery | |
+| Collection | |
+| Exfiltration | |
+| Impact | |
 
 # Timeline
 
-Provide a chronological reconstruction of significant events.
-
----
+| Date | Event |
+|---|---|
 
 # Indicators of Compromise (IOCs)
 
-Where applicable, document:
-
-- File hashes
-- Filenames
-- Domains
-- URLs
-- IP addresses
-- Registry artifacts
-- Processes
-- Services
-- Email subjects
-- Attachments
-
-Clearly distinguish:
-
-- Observed
-- Historical
-- Inferred
-
----
+Clearly distinguish Observed, Historical, and Inferred indicators.
 
 # MITRE ATT&CK Mapping
 
-Document applicable ATT&CK techniques and justify mappings.
-
----
+| Technique | Description |
+|---|---|
 
 # Associated Vulnerabilities
 
-Document associated:
-
-- CVEs
-- CWEs
-- Advisories
-
-If none exist, explicitly state:
-
-**Associated CVEs: None**
-
----
+List applicable CVEs/CWEs or explicitly state **Associated CVEs: None**.
 
 # Operational Impact
 
-Describe:
-
-- Systems affected
-- Geographic impact
-- Business disruption
-- Financial estimates
-- Operational consequences
-
----
+Describe operational, financial, and organizational impacts.
 
 # Attribution Assessment
 
-Document:
+Document attribution, alternatives, and confidence.
 
-- Suspected actor(s)
-- Supporting evidence
-- Alternative hypotheses
-- Confidence assessment
+# Assessment Limitations
 
----
+Document limitations such as:
+- Public reporting constraints
+- Missing artifacts
+- Classification restrictions
+- Conflicting sources
 
 # Defensive Measures
 
-Summarize:
-
-- Mitigations
-- Detection opportunities
-- Preventive controls
-- Recovery recommendations
-
----
+Recommended mitigations and recovery actions.
 
 # Confidence Assessment
 
-Assign confidence ratings to major analytical conclusions.
-
-Example:
-
 | Assessment | Confidence |
-|------------|------------|
-| Attribution | Moderate |
-| Timeline | High |
-| Technical Analysis | High |
-
----
+|---|---|
+| Timeline | |
+| Technical Analysis | |
+| Attribution | |
+| Operational Impact | |
 
 # Source Reliability Assessment
 
-Summarize the quality of sources used.
-
----
+| Source | Reliability |
+|---|---|
 
 # Data Authenticity Review
 
-Document:
+## Verified
 
-- Verified facts
-- Estimated information
-- Assumptions
-- Analytical limitations
+## Corroborated
 
----
+## Reported
+
+## Assumptions
+
+## Analytical Limitations
 
 # Ethical Considerations
 
-Identify:
-
-- Publication risks
-- Sensitive information
-- Omitted technical details
-
----
-
 # Lessons Learned
-
-Summarize strategic and operational lessons derived from the assessment.
-
----
 
 # Analyst Verification Checklist
 
-The analyst shall verify:
-
-- [ ] Every factual claim has supporting evidence.
-- [ ] Sources have been evaluated.
-- [ ] IOCs have been validated.
-- [ ] ATT&CK mappings are supported.
-- [ ] CVEs have been researched.
-- [ ] Confidence assessments are justified.
-- [ ] Assumptions are documented.
+- [ ] Every factual claim supported by evidence.
+- [ ] Every Evidence ID exists.
+- [ ] Every hyperlink validated.
+- [ ] IOCs verified.
+- [ ] ATT&CK mappings reviewed.
+- [ ] CVEs researched.
+- [ ] Confidence justified.
 - [ ] Publication Safety Review completed.
-
----
 
 # Appendix A – Evidence Register
 
-Every CTAR **MUST** include an Evidence Register.
-
 | ID | Evidence | Type | Publication Date | Source Organization | Reliability | Authenticity | Used In | Hyperlink |
-|----|----------|------|------------------|---------------------|-------------|--------------|---------|-----------|
-
----
+|---|---|---|---|---|---|---|---|---|
+| E-001 | | | | | | | | |
 
 # Appendix B – Evidence Traceability Matrix (ETM)
 
-Every significant finding **MUST** map to one or more Evidence IDs.
-
 | Finding | Supporting Evidence |
-|----------|---------------------|
+|---|---|
+| | |
 
----
+# Appendix C – Supporting Artifacts
 
-# References
-
-Reports **MUST** provide complete bibliographic references.
-
-Evidence **MUST** be cited inline using Evidence IDs (e.g., [E-001]).
-
----
-
-<!-- Removed in v1.1.0: Replaced by required Evidence Register -->
-
-| Evidence ID | Description | Source | Reliability |
-|--------------|-------------|--------|-------------|
-
----
-
-# Appendix C – Supporting Artifacts (OPTIONAL)
-
-Examples include:
-
+Optional:
 - Timelines
 - IOC tables
 - Network diagrams
 - Screenshots
 - Hash listings
 - Reporting artifacts
+
+# References
+
+1.
+2.
+3.
+
+# Overall Assessment
+
+Provide the final analytical conclusion supported by the evidence presented above.
