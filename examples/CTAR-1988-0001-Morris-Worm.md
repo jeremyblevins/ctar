@@ -1,7 +1,8 @@
 # Cyber Threat Assessment Report (CTAR)
 
 **CTAR ID:** CTAR-1988-0001\
-**Version:** 1.0.0\
+**Report Version:** 1.1.0
+**Framework Version:** 1.1.0\
 **Classification:** Public Release\
 **Publication Date:** 1 July 2026\
 **Threat Category:** Historic Cyber Incident\
@@ -11,7 +12,7 @@
 
 # Executive Summary
 
-The **Morris Worm** was released on **2 November 1988** and is widely
+The **Morris Worm** was released on **2 November 1988** [E-001] and is widely
 recognized as the first Internet worm to cause widespread disruption.
 Created by graduate student **Robert Tappan Morris**, the worm was
 intended to measure the size of the Internet but contained a design flaw
@@ -132,7 +133,7 @@ slowdowns.
 # Attribution Assessment
 
 The worm was created by Robert Tappan Morris, then a graduate student at
-Cornell University.
+Cornell University. [E-001][E-002]
 
 ------------------------------------------------------------------------
 
@@ -230,6 +231,37 @@ solely for historical analysis and cybersecurity education.
 5.  Distinguish primary from secondary historical sources.
 
 ------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+# Appendix A – Evidence Register
+
+| ID | Evidence | Type | Publication Date | Source Organization | Reliability | Authenticity | Used In | Hyperlink |
+|----|----------|------|------------------|---------------------|-------------|--------------|---------|-----------|
+| E-001 | DARPA Internet Worm Final Report | Government Report | 1989 | DARPA | High | Verified | Executive Summary, Timeline, Attribution | https://apps.dtic.mil/ |
+| E-002 | United States v. Robert Tappan Morris | Court Record | 1990 | U.S. Courts | High | Verified | Attribution | https://law.justia.com/ |
+| E-003 | CERT Advisory CA-1988-01 | CERT Advisory | 1988 | CERT/CC | High | Verified | Technical Characteristics, Defensive Measures | https://www.sei.cmu.edu/about/divisions/cert/ |
+
+------------------------------------------------------------------------
+
+# Appendix B – Evidence Traceability Matrix (ETM)
+
+| Finding | Supporting Evidence |
+|----------|---------------------|
+| Morris Worm released on 2 November 1988 | E-001 |
+| Robert Tappan Morris authored the worm | E-001, E-002 |
+| No associated CVEs | Analyst Assessment |
+| Defensive measures | E-003 |
+
+------------------------------------------------------------------------
+
+# References
+
+1. DARPA. *The Internet Worm Program: An Analysis.*
+2. CERT Coordination Center. Advisory CA-1988-01.
+3. United States v. Robert Tappan Morris.
 
 # Overall Assessment
 
