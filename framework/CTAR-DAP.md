@@ -1,9 +1,15 @@
 # CTAR Data Authenticity Policy (CTAR-DAP)
 
 **Document ID:** CTAR-DAP  
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Status:** Current  
 **Effective Date:** 1 July 2026
+
+---
+
+## Normative Language
+
+The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
 
 ---
 
@@ -46,6 +52,54 @@ Analysts shall distinguish verified information from assumptions or estimates.
 ---
 
 # 4. Evidence Categories
+
+Each Evidence Register entry **MUST** receive exactly one authenticity designation.
+
+Approved authenticity designations are:
+
+- **Verified**
+- **Corroborated**
+- **Reported**
+- **Disputed**
+- **Retracted**
+
+Analysts **MUST** distinguish verified facts from assumptions and estimates.
+
+Evidence with a status of **Reported** or **Disputed** **SHOULD NOT** serve as the sole basis for significant analytical conclusions.
+
+## Verified
+
+Evidence independently confirmed through authoritative or corroborating sources.
+
+Examples:
+
+- CERT advisories
+- Official vendor bulletins
+- Court documents
+- Digitally signed reports
+
+---
+
+## Corroborated
+
+Evidence supported by multiple independent sources but lacking direct confirmation.
+
+---
+
+## Reported
+
+Evidence appearing in a single credible source.
+
+Reported information **MUST** be clearly identified as such.
+
+---
+
+## Unverified
+
+Evidence that has not been independently validated.
+
+Unverified evidence **SHOULD NOT** serve as the sole basis for significant analytical conclusions.
+
 
 ## Verified
 
@@ -132,9 +186,9 @@ Analysts should distinguish:
 
 Artificial Intelligence may assist in locating potential evidence.
 
-AI-generated content is not evidence.
+AI-generated content **MUST NOT** be treated as evidence.
 
-All AI-generated information shall be independently verified before inclusion in a CTAR.
+All AI-generated information **MUST** be independently verified before inclusion in a CTAR.
 
 ---
 
@@ -155,7 +209,7 @@ Estimates should never be presented as established fact.
 
 Every significant analytical conclusion should be traceable to one or more documented evidence sources.
 
-When practical, reports should include an Evidence Matrix identifying the relationship between evidence and conclusions.
+Every CTAR **MUST** include an Evidence Register and an Evidence Traceability Matrix (ETM) identifying the relationship between evidence and analytical conclusions.
 
 ---
 
