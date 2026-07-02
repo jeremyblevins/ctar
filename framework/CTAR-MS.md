@@ -1,9 +1,15 @@
 # CTAR Methodology Specification (CTAR-MS)
 
 **Document ID:** CTAR-MS  
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Status:** Current  
 **Effective Date:** 1 July 2026
+
+---
+
+## Normative Language
+
+The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
 
 ---
 
@@ -44,7 +50,7 @@ The CTAR methodology is founded upon the following principles.
 
 ## Evidence-Based Analysis
 
-Every analytical conclusion should be traceable to documented evidence.
+Every analytical conclusion **MUST** be traceable to documented evidence.
 
 ## Transparency
 
@@ -56,11 +62,11 @@ Independent analysts reviewing the same evidence should be capable of reaching s
 
 ## Analytical Integrity
 
-Evidence shall not be omitted to support predetermined conclusions.
+Evidence **MUST NOT** be omitted to support predetermined conclusions.
 
 ## Human Accountability
 
-Artificial Intelligence may assist analytical work, but responsibility for published assessments remains with the human analyst.
+Artificial Intelligence **MAY** assist analytical work, but responsibility for published assessments **MUST** remain with the human analyst.
 
 ---
 
@@ -141,7 +147,7 @@ Assessment Findings
 
 Produce a CTAR using the Report Template.
 
-Required sections shall follow the CTAR Report Template.
+Required sections **MUST** follow the CTAR Report Template.
 
 Deliverable:
 
@@ -151,7 +157,7 @@ Draft CTAR
 
 ## Phase 6 – Human Verification
 
-The analyst shall verify:
+The analyst **MUST** verify:
 
 - factual statements
 - source citations
@@ -159,7 +165,7 @@ The analyst shall verify:
 - IOC validity
 - analytical conclusions
 
-Artificial Intelligence shall not be considered authoritative evidence.
+Artificial Intelligence **MUST NOT** be considered authoritative evidence.
 
 Deliverable:
 
@@ -196,13 +202,28 @@ Evidence should be categorized as:
 - Secondary
 - Tertiary
 
-Every significant analytical conclusion should be supported by one or more documented sources.
+Every significant analytical conclusion **MUST** be supported by one or more documented evidence items.
+
+---
+
+# 5A. Evidence Traceability Standard
+
+Every evidence item **MUST** receive a unique Evidence ID (e.g., E-001).
+
+Every CTAR **MUST** include:
+
+- Evidence Register
+- Evidence Traceability Matrix (ETM)
+- References
+
+Every significant analytical conclusion **MUST** cite one or more Evidence IDs.
+
 
 ---
 
 # 6. Source Evaluation
 
-Sources shall be evaluated using the CTAR Source Reliability Matrix.
+Sources **MUST** be evaluated using the CTAR Source Reliability Matrix.
 
 Factors include:
 
@@ -261,7 +282,7 @@ AI shall not replace:
 
 # 10. Deliverables
 
-Every completed CTAR shall include:
+Every completed CTAR **MUST** include:
 
 - Executive Summary
 - Assessment Scope
@@ -275,6 +296,10 @@ Every completed CTAR shall include:
 - Defensive Measures
 - Confidence Assessment
 - Source Reliability Assessment
+- Data Authenticity Review
+- Appendix A – Evidence Register
+- Appendix B – Evidence Traceability Matrix (ETM)
+- References
 - Lessons Learned
 
 ---
