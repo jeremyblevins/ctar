@@ -86,6 +86,7 @@ of authorized access.
 # Attack Lifecycle
 
   |Phase | Activity|
+  |----------------|---------------------|
   |Initial Access | Authorized employee access|
   |Collection | Proprietary software and source code copied|
   |Exfiltration | Removal of technical information|
@@ -96,6 +97,7 @@ of authorized access.
 # Timeline
 
   |Date| Event|
+  |----------------|---------------------|
   |14 Dec 2006 | DOJ announces criminal charges|
   |1 Aug 2007 | Meng pleads guilty|
   |18 Jun 2008 | Sentenced in federal court|
@@ -119,6 +121,7 @@ Potential insider-threat indicators include:
 # MITRE ATT&CK Mapping (Approximate)
 
   |Technique | Description|
+  |----------------|---------------------|
   |Valid Accounts |  Authorized insider access|
   |Data from Information | Collection of proprietary information|
   |Repositories | |                   
@@ -170,6 +173,7 @@ Control Act.
 # Confidence Assessment
 
   |Assessment | Confidence|
+  |----------------|---------------------|
   |Timeline | High|
   |Legal proceedings | High|
   |Attribution | High|
@@ -180,6 +184,7 @@ Control Act.
 # Source Reliability Assessment
 
   |Source | Reliability|
+  |----------------|---------------------|
   |DOJ press releases | High|
   |Federal court records | High|
   |Government documentation | High|
