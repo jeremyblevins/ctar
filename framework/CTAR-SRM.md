@@ -1,9 +1,15 @@
 # CTAR Source Reliability Matrix (CTAR-SRM)
 
 **Document ID:** CTAR-SRM  
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Status:** Current  
 **Effective Date:** 1 July 2026
+
+---
+
+## Normative Language
+
+The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
 
 ---
 
@@ -115,7 +121,7 @@ Examples include:
 - Vendor bulletins
 - Court filings
 
-Primary sources should be preferred whenever available.
+Primary sources **SHOULD** be preferred whenever available.
 
 ---
 
@@ -130,13 +136,13 @@ Examples include:
 - Academic summaries
 - Industry reports
 
-Secondary sources should be verified against primary evidence where possible.
+Secondary sources **SHOULD** be verified against primary evidence where possible.
 
 ---
 
 # 5. Corroboration
 
-Major analytical conclusions should be supported by multiple independent sources whenever practical.
+Major analytical conclusions **SHOULD** be supported by multiple independent sources whenever practical.
 
 Conflicting reporting should be documented rather than omitted.
 
@@ -159,11 +165,11 @@ Recommended metadata includes:
 
 # 7. AI-Generated Content
 
-Artificial Intelligence is not considered a source of evidence.
+Artificial Intelligence **MUST NOT** be considered a source of evidence.
 
-AI-generated content may assist analysts but shall not be cited as supporting evidence.
+AI-generated content **MAY** assist analysts but **MUST NOT** be cited as supporting evidence.
 
-Analysts remain responsible for locating and verifying original sources.
+Analysts **MUST** remain responsible for locating and verifying original sources.
 
 ---
 
@@ -210,7 +216,20 @@ Analysts should:
 
 ---
 
-# 11. Relationship to Confidence
+# 11. Evidence Register Requirements
+
+Each Evidence Register entry **MUST** receive one reliability rating:
+
+- **High** – Primary, authoritative, transparent, corroborated.
+- **Moderate** – Credible secondary reporting requiring corroboration.
+- **Low** – Opinion, rumor, anonymous, or unverified reporting.
+
+Reliability applies to the individual evidence item, not merely the originating organization.
+
+
+---
+
+# 12. Relationship to Confidence
 
 Source Reliability evaluates the trustworthiness of evidence.
 
