@@ -1,8 +1,21 @@
+# CTAR Report Template (CTAR-RT)
+
+**Document ID:** CTAR-RT  
+**Version:** 1.1.0  
+**Status:** Current  
+**Effective Date:** 1 July 2026
+
+## Normative Language
+
+The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+
+---
+
 # Cyber Threat Assessment Report (CTAR)
 
 **CTAR ID:** CTAR-YYYY-NNNN  
 **Report Version:** 1.0  
-**Framework Version:** 1.0.0  
+**Framework Version:** 1.1.0  
 **Classification:** Public Release  
 **Publication Date:** YYYY-MM-DD  
 **Author(s):**  
@@ -14,7 +27,7 @@
 
 # Executive Summary
 
-Provide a concise summary of the assessment, including the threat, principal findings, and overall conclusions.
+Provide a concise summary. Significant factual statements **MUST** be traceable to one or more Evidence IDs. of the assessment, including the threat, principal findings, and overall conclusions.
 
 ---
 
@@ -213,22 +226,40 @@ The analyst shall verify:
 
 ---
 
-# References
+# Appendix A – Evidence Register
 
-List all references used to prepare the assessment.
+Every CTAR **MUST** include an Evidence Register.
 
-Prefer primary sources where available.
+| ID | Evidence | Type | Publication Date | Source Organization | Reliability | Authenticity | Used In | Hyperlink |
+|----|----------|------|------------------|---------------------|-------------|--------------|---------|-----------|
 
 ---
 
-# Appendix A – Evidence Matrix (Optional)
+# Appendix B – Evidence Traceability Matrix (ETM)
+
+Every significant finding **MUST** map to one or more Evidence IDs.
+
+| Finding | Supporting Evidence |
+|----------|---------------------|
+
+---
+
+# References
+
+Reports **MUST** provide complete bibliographic references.
+
+Evidence **MUST** be cited inline using Evidence IDs (e.g., [E-001]).
+
+---
+
+<!-- Removed in v1.1.0: Replaced by required Evidence Register -->
 
 | Evidence ID | Description | Source | Reliability |
 |--------------|-------------|--------|-------------|
 
 ---
 
-# Appendix B – Supporting Artifacts (Optional)
+# Appendix C – Supporting Artifacts (OPTIONAL)
 
 Examples include:
 
