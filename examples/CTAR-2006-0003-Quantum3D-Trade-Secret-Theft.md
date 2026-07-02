@@ -1,8 +1,8 @@
 # Cyber Threat Assessment Report (CTAR)
 
 **CTAR ID:** CTAR-2006-0003\
-**Report Version:** 1.0\
-**Framework Version:** 1.0.0\
+**Report Version:** 1.1.0\
+**Framework Version:** 1.1.0\
 **Classification:** Public Release\
 **Publication Date:** 1 July 2026\
 **Assessment Type:** Economic Espionage / Insider Threat\
@@ -13,7 +13,7 @@
 
 # Executive Summary
 
-In December 2006, the United States Department of Justice announced
+In December 2006 [E-001], the United States Department of Justice announced
 criminal charges against former Quantum3D employee Xiaodong Sheldon Meng
 for allegedly stealing military simulation software, source code, and
 other proprietary information from his former employer with the intent
@@ -155,7 +155,7 @@ Potential impacts included:
 
 # Attribution Assessment
 
-Federal prosecutors alleged that Xiaodong Sheldon Meng removed trade
+Federal prosecutors alleged that Xiaodong Sheldon Meng [E-001][E-002] removed trade
 secrets for the benefit of foreign governments. Meng later pleaded
 guilty to violations of the Economic Espionage Act and Arms Export
 Control Act.
@@ -235,6 +235,35 @@ export-controlled material. It is intended for educational use.
 5.  Recommend organizational controls.
 
 ------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+# Appendix A – Evidence Register
+
+| ID | Evidence | Type | Publication Date | Source Organization | Reliability | Authenticity | Used In | Hyperlink |
+|----|----------|------|------------------|---------------------|-------------|--------------|---------|-----------|
+| E-001 | DOJ Charging Announcement | Government Press Release | 2006-12-14 | U.S. Department of Justice | High | Verified | Executive Summary, Timeline, Attribution | https://www.justice.gov/archive/criminal/cybercrime/press-releases/2006/mengCharge.htm |
+| E-002 | DOJ Sentencing Announcement | Government Press Release | 2008-06-18 | U.S. Department of Justice | High | Verified | Timeline, Attribution | https://www.justice.gov/archive/opa/pr/2008/June/08-nsd-545.html |
+
+------------------------------------------------------------------------
+
+# Appendix B – Evidence Traceability Matrix (ETM)
+
+| Finding | Supporting Evidence |
+|----------|---------------------|
+| Criminal charges announced | E-001 |
+| Guilty plea and sentencing | E-002 |
+| Insider threat | E-001, E-002 |
+| No associated CVEs | Analyst Assessment |
+
+------------------------------------------------------------------------
+
+# References
+
+1. U.S. Department of Justice. "Former Software Engineer Charged with Economic Espionage." 14 December 2006.
+2. U.S. Department of Justice. "Former Software Engineer Sentenced..." 18 June 2008.
 
 # Overall Assessment
 

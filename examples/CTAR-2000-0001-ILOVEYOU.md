@@ -1,7 +1,8 @@
 # Cyber Threat Assessment Report (CTAR)
 
 **CTAR ID:** CTAR-2000-0001\
-**Version:** 1.0.0\
+**Report Version:** 1.1.0
+**Framework Version:** 1.1.0\
 **Classification:** Public Release\
 **Publication Date:** 2026-07-01\
 **Threat Category:** Historic Malware Analysis\
@@ -12,7 +13,7 @@
 # Executive Summary
 
 The **ILOVEYOU** worm, also known as **Love Letter** or **Love Bug**,
-emerged on **4 May 2000** and rapidly became one of the most destructive
+emerged on **4 May 2000** [E-001] and rapidly became one of the most destructive
 malware outbreaks in Internet history. Distributed through a Visual
 Basic Script (VBScript) email attachment, the worm relied on social
 engineering rather than a software vulnerability. Once executed, it
@@ -128,7 +129,7 @@ After execution the worm:
 
 # Attribution Assessment
 
-The malware is widely attributed to **Onel de Guzman** of the
+The malware is widely attributed to **Onel de Guzman** [E-002] of the
 Philippines. Contemporary reporting and subsequent investigations
 indicate the worm evolved from earlier password-stealing scripts. No
 successful criminal prosecution followed because Philippine law at the
@@ -234,6 +235,37 @@ is intended solely for cybersecurity education and historical analysis.
     cyber threat intelligence.
 
 ------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+# Appendix A – Evidence Register
+
+| ID | Evidence | Type | Publication Date | Source Organization | Reliability | Authenticity | Used In | Hyperlink |
+|----|----------|------|------------------|---------------------|-------------|--------------|---------|-----------|
+| E-001 | CERT Advisory CA-2000-04 | CERT Advisory | 2000 | CERT/CC | High | Verified | Executive Summary, Timeline, Technical Characteristics | https://www.sei.cmu.edu/about/divisions/cert/ |
+| E-002 | Philippine NBI Investigation / Contemporary Reporting | Government & News | 2000 | NBI / Multiple Sources | Moderate | Corroborated | Attribution | https://en.wikipedia.org/wiki/ILOVEYOU |
+| E-003 | Microsoft Security Guidance | Vendor Advisory | 2000 | Microsoft | High | Verified | Defensive Measures | https://www.microsoft.com/ |
+
+------------------------------------------------------------------------
+
+# Appendix B – Evidence Traceability Matrix (ETM)
+
+| Finding | Supporting Evidence |
+|----------|---------------------|
+| Initial outbreak on 4 May 2000 | E-001 |
+| Outlook email propagation | E-001, E-003 |
+| Attribution to Onel de Guzman | E-002 |
+| No associated CVEs | Analyst Assessment |
+
+------------------------------------------------------------------------
+
+# References
+
+1. CERT Coordination Center. CA-2000-04.
+2. Microsoft Security Guidance on the ILOVEYOU Worm.
+3. Contemporary reporting on the ILOVEYOU incident.
 
 # Overall Assessment
 
