@@ -1,235 +1,234 @@
 # CTAR Data Authenticity Policy (CTAR-DAP)
 
-**Document ID:** CTAR-DAP  
-**Version:** 1.1.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
-
----
-
-## Normative Language
-
-The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The CTAR Data Authenticity Policy establishes requirements for verifying the authenticity and integrity of evidence used in Cyber Threat Assessment Reports (CTARs).
+The CTAR Data Authenticity Policy establishes procedures for evaluating the authenticity and integrity of evidence used in Cyber Threat Assessment Reports (CTARs).
 
-The objective is to ensure that analytical conclusions are based upon information that is demonstrably authentic, traceable, and reproducible.
+Its objective is to reduce the risk of analytical error caused by manipulated, fabricated, incomplete, or synthetic information.
+
+This policy applies to all evidence incorporated into official CTAR products.
 
 ---
 
-# 2. Scope
+# 2. Relationship to Other Framework Documents
 
-This policy applies to all evidence referenced in CTAR assessments, including:
+This policy complements:
 
-- Documents
-- Technical reports
-- Indicators of Compromise (IOCs)
-- Malware analysis
-- Screenshots
-- Log files
-- Network captures
-- Timeline data
-- Digital artifacts
+- CTAR-MS by defining evidence validation requirements.
+- CTAR-SRM by distinguishing evidence authenticity from source reliability.
+- CTAR-RT by informing evidence summaries and confidence assessments.
+
+Authenticity SHALL be evaluated before evidence is incorporated into analytical judgments whenever practical.
 
 ---
 
 # 3. Guiding Principles
 
-Evidence should be:
+Evidence SHALL be evaluated for:
 
-- Authentic
-- Traceable
-- Reproducible
-- Corroborated
-- Properly attributed
+- Authenticity
+- Integrity
+- Provenance
+- Completeness
+- Context
 
-Analysts shall distinguish verified information from assumptions or estimates.
+Failure to verify authenticity does not automatically invalidate evidence but SHALL be documented when material to the assessment.
 
 ---
 
 # 4. Evidence Categories
 
-Each Evidence Register entry **MUST** receive exactly one authenticity designation.
+Evidence MAY include:
 
-Approved authenticity designations are:
+- Log files
+- Packet captures
+- Malware samples
+- Memory images
+- Disk images
+- Screenshots
+- Source code
+- Configuration files
+- Vulnerability reports
+- Digital certificates
+- Emails
+- Chat transcripts
+- Court filings
+- Historical documents
+- Photographs
+- Audio recordings
+- Video recordings
 
-- **Verified**
-- **Corroborated**
-- **Reported**
-- **Disputed**
-- **Retracted**
+Each category presents different authenticity considerations.
 
-Analysts **MUST** distinguish verified facts from assumptions and estimates.
+---
 
-Evidence with a status of **Reported** or **Disputed** **SHOULD NOT** serve as the sole basis for significant analytical conclusions.
+# 5. Authenticity Evaluation
 
-## Verified
+Analysts SHOULD consider:
 
-Evidence independently confirmed through authoritative or corroborating sources.
+## Provenance
+
+Can the origin of the evidence be established?
 
 Examples:
 
-- CERT advisories
-- Official vendor bulletins
-- Court documents
-- Digitally signed reports
+- Original collector
+- Official publication
+- Chain of custody
+- Repository history
 
 ---
 
-## Corroborated
+## Integrity
 
-Evidence supported by multiple independent sources but lacking direct confirmation.
+Has the evidence been modified?
 
----
+Methods MAY include:
 
-## Reported
-
-Evidence appearing in a single credible source.
-
-Reported information **MUST** be clearly identified as such.
-
----
-
-## Unverified
-
-Evidence that has not been independently validated.
-
-Unverified evidence **SHOULD NOT** serve as the sole basis for significant analytical conclusions.
-
-
-## Verified
-
-Evidence independently confirmed through authoritative or corroborating sources.
-
-Examples:
-
-- CERT advisories
-- Official vendor bulletins
-- Court documents
-- Digitally signed reports
-
----
-
-## Corroborated
-
-Evidence supported by multiple independent sources but lacking direct confirmation.
-
----
-
-## Reported
-
-Evidence appearing in a single credible source.
-
-Reported information should be clearly identified as such.
-
----
-
-## Unverified
-
-Evidence that has not been independently validated.
-
-Unverified information shall not serve as the sole basis for significant analytical conclusions.
-
----
-
-# 5. Authenticity Verification
-
-Where practical, analysts should verify:
-
-- Publication source
-- Document integrity
+- Cryptographic hashes
 - Digital signatures
-- File hashes
-- Publication dates
-- Original authorship
+- File metadata
+- Version history
 
 ---
 
-# 6. IOC Verification
+## Completeness
 
-Indicators of Compromise should be verified before inclusion.
+Is the evidence complete?
+
+Analysts SHOULD identify:
+
+- Missing pages
+- Truncated logs
+- Partial packet captures
+- Cropped images
+- Edited recordings
+
+---
+
+## Context
+
+Evidence SHALL be interpreted within its original context whenever possible.
+
+Removing technical or historical context may significantly alter analytical conclusions.
+
+---
+
+# 6. Synthetic and AI-Generated Content
+
+Analysts SHALL remain alert for evidence that may have been generated or altered using artificial intelligence.
 
 Examples include:
 
-- File hashes
-- Domains
-- URLs
-- IP addresses
-- Registry keys
-- Process names
+- AI-generated screenshots
+- Fabricated chat conversations
+- Synthetic voice recordings
+- Deepfake videos
+- AI-generated malware analyses
+- AI-generated technical documentation
 
-Analysts should identify whether IOCs are:
-
-- Observed
-- Historical
-- Inferred
+When authenticity cannot be established, this uncertainty SHALL be documented.
 
 ---
 
-# 7. Historical Evidence
+# 7. Digital Artifact Verification
 
-Historical assessments frequently rely upon archived material.
+Where practical, analysts SHOULD verify digital artifacts using technical methods appropriate to the evidence.
 
-Analysts should distinguish:
+Examples include:
 
-- Contemporary reporting
-- Later historical analysis
-- Retrospective interpretation
+- Hash validation
+- Digital signatures
+- Timestamp verification
+- Certificate validation
+- Repository commit history
+- Domain registration records
 
----
-
-# 8. Artificial Intelligence
-
-Artificial Intelligence may assist in locating potential evidence.
-
-AI-generated content **MUST NOT** be treated as evidence.
-
-All AI-generated information **MUST** be independently verified before inclusion in a CTAR.
+Failure to perform technical verification SHALL be acknowledged when it materially affects confidence.
 
 ---
 
-# 9. Estimates and Assumptions
+# 8. Historical Evidence
 
-Analysts shall explicitly identify:
+Historical evidence presents unique challenges.
 
-- Estimated values
-- Assumptions
-- Unknowns
-- Conflicting information
+Analysts SHOULD consider:
 
-Estimates should never be presented as established fact.
+- Original publication date
+- Archival quality
+- Translation accuracy
+- Editorial revisions
+- Preservation methods
 
----
-
-# 10. Evidence Traceability
-
-Every significant analytical conclusion should be traceable to one or more documented evidence sources.
-
-Every CTAR **MUST** include an Evidence Register and an Evidence Traceability Matrix (ETM) identifying the relationship between evidence and analytical conclusions.
+Reconstructed historical records SHALL be distinguished from contemporaneous records.
 
 ---
 
-# 11. Prohibited Practices
+# 9. Translation
 
-Analysts shall not:
+Translated material SHALL identify:
 
-- Fabricate evidence.
-- Alter technical artifacts.
-- Remove contextual information.
-- Present AI-generated text as original evidence.
-- Misrepresent confidence or authenticity.
+- Original language
+- Translation method
+- Known ambiguities
+
+Machine translation MAY assist analysis but SHALL NOT replace review of technically significant terminology when accuracy is critical.
 
 ---
 
-# 12. Relationship to Other CTAR Documents
+# 10. Conflicting Evidence
 
-This policy should be used in conjunction with:
+When evidence conflicts, analysts SHALL:
 
-- CTAR-MS (Methodology Specification)
-- CTAR-SRM (Source Reliability Matrix)
-- CTAR-AIPP (Artificial Intelligence Participation Policy)
-- CTAR-PSR (Publication Safety Review)
+- Document the conflict.
+- Assess possible explanations.
+- Identify which evidence is considered more authentic.
+- Reflect remaining uncertainty in confidence assessments.
+
+Conflicting evidence SHALL NOT be ignored solely because it contradicts an emerging conclusion.
+
+---
+
+# 11. Evidence Documentation
+
+CTAR products SHOULD document significant evidence using sufficient detail to support independent review.
+
+Documentation MAY include:
+
+- Acquisition date
+- Collection method
+- Repository location
+- Hash values
+- Reference identifiers
+- Preservation notes
+
+Sensitive information SHOULD be redacted when publication would increase operational risk or violate legal or ethical obligations.
+
+---
+
+# 12. Limitations
+
+Authenticity assessments may be constrained by:
+
+- Restricted access
+- Incomplete artifacts
+- Active investigations
+- Proprietary information
+- Encryption
+- Time limitations
+
+Such limitations SHALL be acknowledged when they materially affect analytical confidence.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original Data Authenticity Policy |
+| 2.0.0 | 2026-07-06 | Complete redesign emphasizing evidence provenance, integrity verification, AI-generated content, digital artifact validation, translation considerations, and authenticity documentation. |
