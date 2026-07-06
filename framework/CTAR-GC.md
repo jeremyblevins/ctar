@@ -1,198 +1,180 @@
 # CTAR Governance Charter (CTAR-GC)
 
-**Document ID:** CTAR-GC  
-**Version:** 1.0.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
+**Version:** 1.1.0\
+**Status:** Draft Standard
 
----
+## 1. Purpose
 
-# 1. Purpose
+This Governance Charter establishes the governing principles,
+organizational structure, and lifecycle management processes for the
+Cyber Threat Assessment Report (CTAR) Framework. It ensures CTAR remains
+an open, evidence-based, vendor-neutral methodology for producing cyber
+threat assessments.
 
-The CTAR Governance Charter establishes the principles, processes, and responsibilities governing the development and maintenance of the Cyber Threat Assessment Report (CTAR) Framework.
-
-The purpose of this charter is to ensure that the framework remains transparent, evidence-based, community-driven, and technically sound.
-
----
-
-# 2. Mission
-
-The mission of the CTAR Framework is to provide an open, vendor-neutral methodology for producing structured, evidence-based cyber threat assessments suitable for education, research, government, and industry.
-
----
-
-# 3. Core Values
-
-The CTAR Framework is guided by the following values:
-
-- Evidence before opinion
-- Transparency
-- Objectivity
-- Reproducibility
-- Intellectual honesty
-- Continuous improvement
-- Responsible use of Artificial Intelligence
-- Open collaboration
-
----
-
-# 4. Scope
+## 2. Scope
 
 This charter governs:
 
-- Framework documents
-- Templates
-- Supporting guidance
-- Example assessments
-- Educational materials
-- Community contributions
+-   The CTAR Framework
+-   Methodology standards
+-   Report templates
+-   Analytical guidance
+-   Domain-specific practice guides
+-   Supporting annexes
+-   Reference implementations
+-   Official publications
 
----
+## 3. Guiding Principles
 
-# 5. Governance Principles
+The framework SHALL be:
 
-The framework shall:
+-   Evidence-driven
+-   Objective
+-   Transparent
+-   Reproducible
+-   Vendor-neutral
+-   Technically accurate
+-   Ethically responsible
 
-- Remain vendor neutral.
-- Remain technology neutral where practical.
-- Encourage evidence-based analysis.
-- Welcome constructive community contributions.
-- Maintain a stable methodology while allowing thoughtful evolution.
+Evidence SHALL be clearly distinguished from interpretation and analyst
+judgment.
 
----
+## 4. Framework Architecture
 
-# 6. Roles
+The CTAR Framework consists of:
 
-## Framework Maintainer
+1.  Governance Documents
+2.  Methodology Standards
+3.  Analytical Tradecraft
+4.  Report Standards
+5.  Domain Practice Guides
+6.  Annexes
 
-The Framework Maintainer is responsible for:
+## 5. Report Profiles
 
-- Reviewing proposed changes
-- Maintaining document quality
-- Publishing official releases
-- Managing version history
+The following report classes are officially recognized:
 
-## Contributors
+-   Operational CTAR
+-   Historical CTAR
+-   Vulnerability CTAR
+-   Threat Actor CTAR
+-   Campaign CTAR
+-   Strategic CTAR
+-   Product Risk CTAR
 
-Contributors may:
+Additional report profiles MAY be approved through the framework change
+process.
 
-- Submit issues
-- Propose revisions
-- Improve documentation
-- Develop educational examples
-- Correct errors
+## 6. Governance Roles
 
-Contributors should follow the project's contribution guidelines.
+### Framework Maintainer
 
----
+Responsible for overall stewardship of the framework.
 
-# 7. Decision-Making
+### Technical Editor
 
-Changes should be evaluated according to:
+Maintains consistency, terminology, formatting, and document quality.
 
-- Technical accuracy
-- Educational value
-- Consistency with CTAR principles
-- Community feedback
-- Long-term maintainability
+### Contributing Analyst
 
-Consensus is preferred whenever practical.
+Authors or revises framework documents and CTAR products.
 
-The Framework Maintainer has final responsibility for official releases.
+### Peer Reviewer
 
----
+Evaluates technical accuracy, analytical rigor, and adherence to
+standards.
 
-# 8. Versioning
+### Release Manager
 
-The CTAR Framework follows Semantic Versioning.
+Coordinates versioning, publication, and archival of official releases.
 
-Examples:
+## 7. Normative Language
 
-1.0.0
+Normative terms such as SHALL, SHOULD, MAY, MUST, and SHOULD NOT are
+interpreted according to RFC 2119 conventions.
 
-1.1.0
+## 8. Versioning
 
-2.0.0
+CTAR adopts Semantic Versioning.
 
-Major versions represent significant methodological changes.
+-   Major: Breaking structural or methodological changes.
+-   Minor: New capabilities that preserve compatibility.
+-   Patch: Editorial corrections and clarifications.
 
-Minor versions introduce new features while preserving compatibility.
+## 9. Change Control
 
-Patch versions correct errors or improve clarity.
+Framework modifications SHALL follow this lifecycle:
 
----
+1.  Proposal
+2.  Technical Review
+3.  Governance Approval
+4.  Version Assignment
+5.  Publication
+6.  Archival of Superseded Version
 
-# 9. Backward Compatibility
+## 10. Intelligence Independence
 
-Where practical, updates should preserve compatibility with existing CTAR reports.
+Analysts SHALL:
 
-Breaking changes should be clearly documented.
+-   Separate evidence from assessment.
+-   Explicitly identify assumptions.
+-   State confidence for key judgments.
+-   Document significant conflicting evidence when available.
 
----
+## 11. Historical CTAR Governance
 
-# 10. Issue Resolution
+Historical CTARs SHOULD include:
 
-Questions, suggestions, and corrections should be submitted through the project's public issue tracker.
+-   Historical Context
+-   Chronology
+-   Source Criticism
+-   Technical Reconstruction
+-   Strategic Significance
+-   Enduring Lessons
 
-Discussion should remain respectful, evidence-based, and constructive.
+Confirmed facts SHALL be distinguished from reconstructed events and
+analyst interpretation.
 
----
+## 12. Publication Policy
 
-# 11. Release Process
+Official framework releases SHALL include:
 
-Official releases should include:
+-   Revision history
+-   Change summary
+-   Version identifier
+-   Publication date
 
-- Updated framework documents
-- Updated templates
-- CHANGELOG
-- Version identifier
-- Release notes
+## 13. Deprecation Policy
 
----
+Deprecated documents SHALL remain archived for at least one major
+framework release and SHALL clearly identify their replacement.
 
-# 12. Community Standards
+## 14. Quality Assurance
 
-Participants are expected to:
+Framework documents SHOULD undergo peer review before release and SHOULD
+maintain internal consistency through cross-references.
 
-- Respect differing viewpoints.
-- Support claims with evidence.
-- Credit the work of others.
-- Maintain professional conduct.
-- Focus discussion on improving the framework.
+## 15. Future Roadmap
 
----
+Future governance enhancements may include:
 
-# 13. Educational Mission
+-   Machine-readable schemas
+-   Digital signatures
+-   Conformance testing
+-   API governance
+-   Collaborative editorial workflows
 
-The CTAR Framework supports cybersecurity education by encouraging:
+## Revision History
 
-- Critical thinking
-- Evidence evaluation
-- Analytical transparency
-- Human verification
-- Ethical use of Artificial Intelligence
+  -----------------------------------------------------------------------
+  Version                  Date           Description
+  ------------------------ -------------- -------------------------------
+  1.0.0                    Initial        Original Governance Charter
+                           Release        
 
-The framework is intended to complement—not replace—technical cybersecurity education.
-
----
-
-# 14. Relationship to Other Documents
-
-This Governance Charter applies to the entire CTAR Framework, including:
-
-- CTAR-MS
-- CTAR-RT
-- CTAR-SRM
-- CTAR-DAP
-- CTAR-AIPP
-- CTAR-PSR
-- CTAR-CE
-- CTAR-SG
-
----
-
-# 15. Future Development
-
-The framework is expected to evolve through community participation, practical application, and continued research.
-
-Proposed changes should strengthen the framework's mission while preserving its commitment to evidence-based cyber threat analysis.
+  1.1.0                    2026-07-06     Expanded governance for modular
+                                          CTAR framework, report
+                                          profiles, semantic versioning,
+                                          change control, and historical
+                                          CTAR support.
+  -----------------------------------------------------------------------
