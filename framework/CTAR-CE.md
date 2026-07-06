@@ -1,152 +1,175 @@
-# CTAR Code of Ethics & Analytical Conduct (CTAR-CE)
+# CTAR Code of Ethics (CTAR-CE)
 
-**Document ID:** CTAR-CE  
-**Version:** 1.0.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The CTAR Code of Ethics & Analytical Conduct establishes the ethical principles governing analysts who produce Cyber Threat Assessment Reports (CTARs).
+The CTAR Code of Ethics establishes the professional principles expected of all contributors to the Cyber Threat Assessment Report (CTAR) Framework.
 
-The purpose of this code is to promote integrity, objectivity, transparency, and responsible stewardship of cyber threat intelligence.
+Its purpose is to promote objective, transparent, and responsible cyber threat analysis that serves decision-makers while maintaining public trust.
 
 ---
 
-# 2. Core Principles
+# 2. Core Ethical Principles
 
-Analysts shall conduct themselves in accordance with the following principles:
+CTAR analysts SHALL strive to be:
 
-- Integrity
-- Objectivity
-- Accountability
-- Professionalism
-- Respect for Evidence
-- Responsible Disclosure
+- Honest
+- Objective
+- Independent
+- Transparent
+- Accountable
+- Technically competent
+- Respectful of legal and ethical obligations
+
+These principles apply throughout the analytical process.
 
 ---
 
 # 3. Integrity
 
-Analysts shall:
+Analysts SHALL:
 
-- Present findings honestly.
-- Report evidence accurately.
-- Correct known errors promptly.
-- Avoid exaggeration or sensationalism.
+- Present evidence accurately.
+- Avoid knowingly misleading readers.
+- Correct significant errors when discovered.
+- Clearly distinguish evidence from interpretation.
 
-Analytical conclusions shall never be influenced by political, commercial, or personal interests.
+Fabrication or intentional misrepresentation is incompatible with the CTAR Framework.
 
 ---
 
 # 4. Objectivity
 
-Analysts shall:
+Analysts SHALL:
 
+- Base conclusions on available evidence.
 - Consider alternative explanations.
-- Identify assumptions.
-- Distinguish fact from interpretation.
-- Document uncertainty.
+- Avoid confirmation bias.
+- Acknowledge uncertainty.
+- Revise conclusions when warranted by new information.
 
-Evidence should drive conclusions—not the reverse.
-
----
-
-# 5. Evidence-Based Analysis
-
-Analysts shall:
-
-- Use verifiable evidence.
-- Evaluate source reliability.
-- Verify critical information.
-- Cite supporting references.
-
-Unsupported assertions shall not be presented as fact.
+The purpose of a CTAR is to inform rather than persuade.
 
 ---
 
-# 6. Transparency
+# 5. Independence
 
-Analysts shall clearly identify:
+Analysts SHALL avoid allowing:
 
-- Assumptions
-- Estimates
+- Political interests
+- Commercial interests
+- Personal relationships
+- Financial incentives
+- Organizational preferences
+
+to improperly influence analytical conclusions.
+
+Potential conflicts of interest SHOULD be disclosed when material to the assessment.
+
+---
+
+# 6. Professional Competence
+
+Analysts SHOULD:
+
+- Maintain relevant technical knowledge.
+- Understand current threat landscapes.
+- Apply accepted analytical methods.
+- Continue professional development.
+- Seek peer review when appropriate.
+
+Analysts SHALL avoid presenting opinions beyond their competence as authoritative conclusions.
+
+---
+
+# 7. Transparency
+
+Official CTAR publications SHOULD clearly communicate:
+
+- Sources used
 - Confidence assessments
-- Known limitations
-- Analytical gaps
+- Information gaps
+- Significant assumptions
+- Analytical limitations
+- Material AI participation
 
-Readers should be able to understand how conclusions were reached.
-
----
-
-# 7. Responsible Use of AI
-
-Artificial Intelligence may assist the analytical process.
-
-However:
-
-- AI is not evidence.
-- AI does not replace analytical judgment.
-- AI-generated content shall be verified.
-- Human analysts remain responsible for all published work.
+Transparency strengthens reader confidence and supports independent evaluation.
 
 ---
 
-# 8. Professional Conduct
+# 8. Confidentiality
 
-Analysts shall:
+Analysts SHALL respect:
 
-- Respect intellectual property.
-- Attribute the work of others.
-- Protect confidential information.
-- Avoid plagiarism.
-- Maintain professional competence.
+- Applicable laws
+- Contractual obligations
+- Privacy rights
+- Responsible disclosure practices
+- Intellectual property
 
----
-
-# 9. Responsible Communication
-
-CTAR reports should:
-
-- Improve cybersecurity.
-- Promote defensive practices.
-- Avoid unnecessary technical detail that could facilitate misuse.
-- Support education and research.
+Sensitive information SHALL only be disclosed when legally and ethically appropriate.
 
 ---
 
-# 10. Conflicts of Interest
+# 9. Respect for Evidence
 
-Analysts shall disclose any actual or potential conflicts of interest that could reasonably influence the assessment.
+Evidence SHALL NOT be:
 
-Examples include:
+- Altered
+- Fabricated
+- Selectively omitted to mislead
+- Presented out of context
 
-- Financial interests
-- Employment relationships
-- Consulting engagements
-- Personal involvement in the incident
-
----
-
-# 11. Continuous Improvement
-
-Analysts are encouraged to:
-
-- Develop technical expertise.
-- Improve analytical reasoning.
-- Learn from peer review.
-- Remain informed about emerging threats and methodologies.
+Conflicting evidence SHALL be acknowledged when materially relevant.
 
 ---
 
-# 12. Relationship to Other CTAR Documents
+# 10. Responsible Publication
 
-This Code should be applied together with:
+Analysts SHOULD consider whether publication could:
 
-- CTAR-MS (Methodology Specification)
-- CTAR-SRM (Source Reliability Matrix)
-- CTAR-DAP (Data Authenticity Policy)
-- CTAR-AIPP (Artificial Intelligence Participation Policy)
-- CTAR-PSR (Publication Safety Review)
+- Increase harm to victims.
+- Reveal sensitive defensive capabilities.
+- Enable malicious activity.
+- Interfere with ongoing investigations.
+
+Ethical publication balances transparency with responsibility.
+
+---
+
+# 11. Accountability
+
+Analysts remain personally responsible for:
+
+- Their analytical conclusions.
+- Their use of evidence.
+- Their confidence assessments.
+- Compliance with CTAR standards.
+
+Use of automation or artificial intelligence does not diminish analyst accountability.
+
+---
+
+# 12. Commitment to Continuous Improvement
+
+Analysts SHOULD:
+
+- Welcome constructive peer review.
+- Correct mistakes promptly.
+- Improve analytical methods.
+- Support the ongoing development of the CTAR Framework.
+
+Professional excellence is an ongoing responsibility.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original Code of Ethics |
+| 2.0.0 | 2026-07-06 | Reorganized around core ethical principles emphasizing integrity, objectivity, independence, transparency, responsible publication, and analyst accountability. |
