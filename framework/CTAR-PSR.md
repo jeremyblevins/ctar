@@ -1,159 +1,183 @@
 # CTAR Publication Safety Review (CTAR-PSR)
 
-**Document ID:** CTAR-PSR  
-**Version:** 1.0.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The CTAR Publication Safety Review (PSR) establishes a standardized process for evaluating whether a Cyber Threat Assessment Report (CTAR) is appropriate for publication.
+The CTAR Publication Safety Review establishes minimum review requirements before the public release of a Cyber Threat Assessment Report (CTAR).
 
-The objective is to balance transparency, educational value, and responsible disclosure while minimizing the risk of facilitating malicious activity or exposing sensitive information.
+Its purpose is to reduce the risk of causing unintended harm while preserving analytical transparency and public value.
 
----
-
-# 2. Scope
-
-This policy applies to all CTAR products intended for external distribution, including:
-
-- Public reports
-- Academic publications
-- Classroom materials
-- Conference presentations
-- White papers
-- Research reports
-
-Organizations may adopt additional internal review procedures where required.
+This review SHALL be completed prior to publication of official CTAR reports.
 
 ---
 
-# 3. Guiding Principles
+# 2. Guiding Principles
 
-Publication decisions should support:
+Publication SHALL balance:
 
-- Responsible disclosure
-- Defensive cybersecurity
-- Public education
-- Analytical transparency
-- Ethical communication
+- Transparency
+- Public benefit
+- Technical accuracy
+- Operational security
+- Ethical responsibility
+- Legal obligations
 
-The purpose of a CTAR is to improve understanding—not to enable malicious activity.
-
----
-
-# 4. Publication Categories
-
-## Public
-
-Approved for unrestricted distribution.
-
-Examples:
-
-- Historical incidents
-- Educational assessments
-- Publicly documented malware
-- Threat trend analysis
+Not every technically correct detail should necessarily be published.
 
 ---
 
-## Limited Distribution
+# 3. Publication Review Objectives
 
-Intended for a defined audience.
+Reviewers SHOULD determine whether publication could:
 
-Examples:
-
-- Organizational assessments
-- Customer reports
-- Internal research
-
----
-
-## Restricted
-
-Contains information that should not be publicly released without authorization.
-
-Examples:
-
-- Sensitive infrastructure information
-- Active investigations
-- Non-public technical details
+- Increase cyber risk
+- Expose victims
+- Reveal sensitive defensive capabilities
+- Interfere with incident response
+- Enable malicious activity
+- Violate legal obligations
 
 ---
 
-# 5. Publication Review
+# 4. Technical Risk Review
 
-Analysts should evaluate whether the report contains:
+Reviewers SHALL evaluate whether the report includes:
 
-- Exploit code
-- Live malware
-- Operational attack procedures
-- Sensitive credentials
-- Private information
-- Confidential organizational data
-- Information restricted by law or contract
-
-Such material should generally be omitted or appropriately redacted.
-
----
-
-# 6. Educational Considerations
-
-Educational CTARs should prioritize:
-
-- Historical understanding
-- Defensive techniques
-- Analytical reasoning
-- Evidence evaluation
-
-Educational reports should avoid including operational details unnecessary for achieving learning objectives.
-
----
-
-# 7. Responsible Disclosure
-
-If a CTAR references previously undisclosed vulnerabilities or sensitive findings, publication should follow applicable responsible disclosure processes.
-
-CTAR is not intended to supersede organizational disclosure policies.
-
----
-
-# 8. Analyst Checklist
-
-Before publication, verify:
-
-- [ ] Sensitive information has been reviewed.
-- [ ] Personal information has been removed or anonymized.
-- [ ] Exploit code has been excluded.
-- [ ] Live malware is not distributed.
-- [ ] Technical details are appropriate for the intended audience.
-- [ ] Evidence is accurately represented.
-- [ ] AI-generated content has been verified.
-- [ ] References are complete.
-
----
-
-# 9. Common Redactions
-
-Examples of information that may require removal include:
-
+- Exploitable proof-of-concept code
+- Active exploit instructions
+- Operational malware
+- Working command-and-control infrastructure
+- Sensitive authentication material
+- Private encryption keys
 - Credentials
-- API keys
-- Private IP addressing
-- Internal hostnames
-- Personally identifiable information (PII)
-- Non-public infrastructure details
-- Proprietary data
+- Active attack infrastructure
+
+Such information SHOULD be removed, summarized, or responsibly disclosed rather than publicly released.
 
 ---
 
-# 10. Relationship to Other CTAR Documents
+# 5. Victim Protection
 
-This document complements:
+Reports SHOULD avoid unnecessarily disclosing:
 
-- CTAR-MS (Methodology Specification)
-- CTAR-DAP (Data Authenticity Policy)
-- CTAR-AIPP (Artificial Intelligence Participation Policy)
-- CTAR-CE (Code of Ethics & Analytical Conduct)
+- Personally identifiable information
+- Customer information
+- Internal network architecture
+- Confidential business information
+- Sensitive operational details
+
+Victim organizations SHOULD be identified only when disclosure serves a legitimate analytical or public interest.
+
+---
+
+# 6. Responsible Vulnerability Disclosure
+
+When discussing vulnerabilities, analysts SHOULD consider:
+
+- Vendor notification status
+- Public disclosure status
+- Patch availability
+- Active exploitation
+- Coordinated vulnerability disclosure practices
+
+CTAR does not replace responsible disclosure processes.
+
+---
+
+# 7. Legal Review
+
+Analysts SHALL consider applicable:
+
+- Copyright law
+- Privacy law
+- Contractual obligations
+- Export controls
+- Licensing restrictions
+- Court orders
+
+Questions of legal interpretation SHOULD be referred to appropriate legal counsel.
+
+---
+
+# 8. Ethical Review
+
+Reviewers SHOULD assess whether publication:
+
+- Could unnecessarily increase harm.
+- Respects responsible disclosure.
+- Accurately represents available evidence.
+- Avoids sensationalism.
+- Maintains analytical objectivity.
+
+---
+
+# 9. Attribution Review
+
+Where threat attribution is discussed, reviewers SHOULD verify that:
+
+- Attribution is supported by evidence.
+- Confidence is clearly stated.
+- Alternative explanations have been considered.
+- Significant uncertainty is disclosed.
+
+Unsupported attribution SHOULD NOT be presented as fact.
+
+---
+
+# 10. Final Publication Checklist
+
+Before publication, reviewers SHOULD confirm:
+
+☐ Evidence has been validated.
+
+☐ Sources have been evaluated.
+
+☐ Confidence assessments are complete.
+
+☐ AI participation has been disclosed.
+
+☐ Sensitive information has been reviewed.
+
+☐ Legal and ethical considerations have been addressed.
+
+☐ Report formatting complies with CTAR-RT.
+
+☐ Required metadata is complete.
+
+---
+
+# 11. Exceptions
+
+In rare circumstances, publication may proceed despite unresolved concerns when:
+
+- Immediate public awareness outweighs potential risks.
+- Significant public interest exists.
+- Delay would materially increase harm.
+
+Such decisions SHOULD be documented.
+
+---
+
+# 12. Continuous Review
+
+Published CTAR reports MAY be revised when:
+
+- New evidence becomes available.
+- Significant errors are identified.
+- Sensitive information is later determined to require redaction.
+- Confidence assessments materially change.
+
+Revisions SHALL be documented in the report history.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original Publication Safety Review |
+| 2.0.0 | 2026-07-06 | Expanded publication review to include technical, legal, ethical, victim protection, attribution, and responsible disclosure considerations with a standardized pre-publication checklist. |
