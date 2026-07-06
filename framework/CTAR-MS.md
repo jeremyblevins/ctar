@@ -1,325 +1,293 @@
-# CTAR Methodology Specification (CTAR-MS)
+# CTAR Methodology Standard (CTAR-MS)
 
-**Document ID:** CTAR-MS  
-**Version:** 1.1.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
-
----
-
-## Normative Language
-
-The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The Cyber Threat Assessment Report (CTAR) Methodology Specification establishes the standard analytical process for producing evidence-based cyber threat intelligence assessments.
+The CTAR Methodology Standard establishes the analytical process used to produce Cyber Threat Assessment Reports (CTARs). It defines the minimum methodological requirements necessary to produce assessments that are transparent, evidence-based, reproducible, and technically rigorous.
 
-The objective of the CTAR methodology is to provide a repeatable, transparent, and defensible framework that enables analysts to transform available evidence into structured intelligence products suitable for operational, educational, and research purposes.
-
-The methodology emphasizes:
-
-- Evidence over opinion
-- Transparency over authority
-- Reproducibility over intuition
-- Human accountability over automation
+This document is normative for all official CTAR products.
 
 ---
 
-# 2. Scope
+# 2. Relationship to Other Framework Documents
 
-This methodology applies to all reports produced under the CTAR Framework.
+This standard complements other components of the CTAR Framework.
 
-Applicable assessment types include:
+- CTAR-GC defines governance and lifecycle management.
+- CTAR-RT defines report structure and presentation.
+- CTAR-SRM defines source reliability evaluation.
+- CTAR-DAP defines evidence authenticity requirements.
+- CTAR-AIPP defines acceptable AI participation.
+- CTAR-ATM (Analytical Tradecraft Manual) provides advanced analytical techniques.
 
-- Historic Malware Analysis
-- Threat Actor Assessments
-- Vulnerability Assessments
-- Campaign Assessments
-- Incident Assessments
-- Technology Risk Assessments
-- Emerging Threat Assessments
+Where conflicts exist, Governance Charter requirements SHALL take precedence.
 
 ---
 
-# 3. Guiding Principles
+# 3. Core Analytical Principles
 
-The CTAR methodology is founded upon the following principles.
+Every CTAR SHALL be:
 
-## Evidence-Based Analysis
+- Evidence-driven
+- Objective
+- Transparent
+- Reproducible
+- Technically accurate
+- Vendor-neutral
+- Explicit about uncertainty
 
-Every analytical conclusion **MUST** be traceable to documented evidence.
+Analysts SHALL distinguish between:
 
-## Transparency
+- Observed facts
+- Corroborated evidence
+- Analytical interpretation
+- Estimates
+- Assumptions
+- Confidence judgments
 
-Assumptions, limitations, and confidence should be documented.
-
-## Reproducibility
-
-Independent analysts reviewing the same evidence should be capable of reaching substantially similar conclusions.
-
-## Analytical Integrity
-
-Evidence **MUST NOT** be omitted to support predetermined conclusions.
-
-## Human Accountability
-
-Artificial Intelligence **MAY** assist analytical work, but responsibility for published assessments **MUST** remain with the human analyst.
+These categories SHALL NOT be conflated.
 
 ---
 
 # 4. Analytical Workflow
 
-The CTAR methodology consists of eight phases.
+Every CTAR SHALL follow the following analytical lifecycle.
 
-## Phase 1 – Define the Assessment
+## Phase 1 — Problem Definition
 
-Identify:
+The analyst SHALL define:
 
-- Subject
 - Scope
+- Assessment objective
 - Intended audience
-- Assessment objectives
-- Intelligence questions
-
-Deliverable:
-
-Assessment Plan
+- Timeframe
+- Key analytical questions
 
 ---
 
-## Phase 2 – Evidence Collection
+## Phase 2 — Evidence Collection
 
-Collect available evidence including:
+Evidence MAY include:
 
+- Vendor advisories
 - Government publications
-- Vendor analyses
+- Threat intelligence
+- Malware analysis
+- Vulnerability databases
 - Academic research
-- Technical reports
-- Historical reporting
-- Primary artifacts
+- Digital forensics
+- Open-source intelligence
+- Historical records
 
-Deliverable:
-
-Evidence Package
+Evidence SHALL be documented sufficiently to support independent review.
 
 ---
 
-## Phase 3 – Evidence Validation
+## Phase 3 — Source Evaluation
 
-Validate collected information.
+Sources SHALL be evaluated according to CTAR-SRM.
 
-Activities include:
+Evaluation SHOULD consider:
 
-- Authenticity verification
-- Source corroboration
-- IOC verification
-- Timeline verification
-- Attribution review
-
-Deliverable:
-
-Validated Evidence Set
+- Authenticity
+- Independence
+- Technical competence
+- Corroboration
+- Timeliness
+- Historical reliability
 
 ---
 
-## Phase 4 – Analytical Assessment
+## Phase 4 — Evidence Validation
 
-Analyze the validated evidence.
+Evidence SHALL be assessed for authenticity using CTAR-DAP.
 
-Activities include:
+Analysts SHOULD identify:
 
-- Timeline reconstruction
-- Technical analysis
-- Impact assessment
-- Attribution assessment
-- Confidence assessment
-
-Deliverable:
-
-Assessment Findings
+- Manipulated media
+- AI-generated artifacts
+- Translation limitations
+- Archived material
+- Incomplete datasets
+- Missing context
 
 ---
 
-## Phase 5 – Report Development
+## Phase 5 — Analysis
 
-Produce a CTAR using the Report Template.
+Analysis SHALL:
 
-Required sections **MUST** follow the CTAR Report Template.
+- Correlate evidence
+- Identify patterns
+- Evaluate competing explanations
+- Distinguish causation from correlation
+- Document analytical assumptions
+- Identify knowledge gaps
 
-Deliverable:
-
-Draft CTAR
-
----
-
-## Phase 6 – Human Verification
-
-The analyst **MUST** verify:
-
-- factual statements
-- source citations
-- technical accuracy
-- IOC validity
-- analytical conclusions
-
-Artificial Intelligence **MUST NOT** be considered authoritative evidence.
-
-Deliverable:
-
-Verified Assessment
+Analysts SHOULD consider alternative hypotheses whenever reasonable.
 
 ---
 
-## Phase 7 – Publication Safety Review
+## Phase 6 — Assessment Development
 
-Evaluate the report for:
+Assessments SHALL include:
 
-- sensitive information
-- operational risk
-- weaponizable content
-- ethical considerations
-
-Deliverable:
-
-Approved Publication
+- Key judgments
+- Supporting evidence
+- Confidence levels
+- Information gaps
+- Potential future developments
 
 ---
 
-## Phase 8 – Publication
+## Phase 7 — Peer Review
 
-Publish the finalized assessment.
+Official CTAR publications SHOULD undergo technical peer review before release.
 
----
+Peer review SHOULD evaluate:
 
-# 5. Evidence Standards
-
-Evidence should be categorized as:
-
-- Primary
-- Secondary
-- Tertiary
-
-Every significant analytical conclusion **MUST** be supported by one or more documented evidence items.
+- Technical accuracy
+- Logical consistency
+- Source quality
+- Confidence assignments
+- Report completeness
 
 ---
 
-# 5A. Evidence Traceability Standard
+# 5. Confidence Assessment
 
-Every evidence item **MUST** receive a unique Evidence ID (e.g., E-001).
+Every significant analytical judgment SHALL include an explicit confidence assessment.
 
-Every CTAR **MUST** include:
+Confidence reflects the analyst's assessment of the quality, quantity, consistency, and corroboration of available evidence. It does not represent statistical probability.
 
-- Evidence Register
-- Evidence Traceability Matrix (ETM)
-- References
-
-Every significant analytical conclusion **MUST** cite one or more Evidence IDs.
-
-
----
-
-# 6. Source Evaluation
-
-Sources **MUST** be evaluated using the CTAR Source Reliability Matrix.
-
-Factors include:
-
-- authority
-- independence
-- timeliness
-- corroboration
-- authenticity
-
----
-
-# 7. Confidence Assessment
-
-Each major conclusion shall receive a confidence rating.
-
-Recommended categories:
+The recommended confidence scale is:
 
 - High
 - Moderate
 - Low
 
-Confidence reflects the quality of supporting evidence rather than certainty.
+Confidence SHOULD consider:
+
+- Number of independent sources
+- Source reliability
+- Evidence consistency
+- Technical validation
+- Presence of conflicting information
 
 ---
 
-# 8. Indicators of Compromise
+# 6. Handling Uncertainty
 
-Historical and operational indicators shall be distinguished.
+Analysts SHALL explicitly identify uncertainty.
 
-Where possible:
+Sources of uncertainty MAY include:
 
-- verify IOCs
-- identify provenance
-- document confidence
-- distinguish observed from inferred indicators
+- Incomplete evidence
+- Conflicting reporting
+- Limited technical visibility
+- Attribution ambiguity
+- Active investigations
 
----
-
-# 9. Artificial Intelligence
-
-AI may assist with:
-
-- summarization
-- drafting
-- organization
-- editing
-
-AI shall not replace:
-
-- evidence validation
-- analytical judgment
-- confidence assessment
-- publication approval
+Unknown information SHALL NOT be presented as fact.
 
 ---
 
-# 10. Deliverables
+# 7. Evidence vs Assessment
 
-Every completed CTAR **MUST** include:
+CTAR distinguishes between:
 
-- Executive Summary
-- Assessment Scope
-- Historical Context
-- Threat Overview
-- Technical Assessment
-- Timeline
-- Impact Assessment
-- Attribution Assessment
-- Indicators of Compromise
-- Defensive Measures
-- Confidence Assessment
-- Source Reliability Assessment
-- Data Authenticity Review
-- Appendix A – Evidence Register
-- Appendix B – Evidence Traceability Matrix (ETM)
-- References
-- Lessons Learned
+**Evidence**
 
----
+Observable information directly supported by sources.
 
-# 11. Analyst Responsibilities
+**Assessment**
 
-Analysts are responsible for:
+Reasoned interpretation based on available evidence.
 
-- validating evidence
-- documenting assumptions
-- identifying uncertainty
-- distinguishing fact from analysis
-- maintaining objectivity
+**Assumption**
+
+A condition accepted for analytical purposes due to incomplete information.
+
+**Estimate**
+
+An informed judgment regarding unknown or future conditions.
+
+These distinctions SHALL remain explicit throughout every report.
 
 ---
 
-# 12. Continuous Improvement
+# 8. Analytical Independence
 
-The CTAR Framework shall evolve through documented revisions.
+Analysts SHALL:
 
-Changes shall be tracked in the project CHANGELOG.
+- Avoid advocacy
+- Avoid confirmation bias
+- Document significant conflicting evidence
+- Revise conclusions when new evidence emerges
+- Separate technical findings from policy recommendations
 
-Major revisions should preserve backward compatibility where practical.
+The purpose of a CTAR is to inform decision-makers rather than persuade them.
+
+---
+
+# 9. AI-Assisted Analysis
+
+Artificial intelligence MAY assist with:
+
+- Information summarization
+- Data organization
+- Language refinement
+- Draft generation
+- Pattern identification
+
+AI SHALL NOT replace analyst judgment.
+
+Human analysts remain responsible for:
+
+- Evidence validation
+- Source evaluation
+- Technical accuracy
+- Confidence assignment
+- Final analytical conclusions
+
+AI participation SHALL be disclosed in accordance with CTAR-AIPP.
+
+---
+
+# 10. Reproducibility
+
+A CTAR SHOULD contain sufficient information for another qualified analyst to:
+
+- Understand the evidence
+- Reconstruct the analytical process
+- Reach similar conclusions using the same evidence
+
+Absolute reproducibility is not always possible due to changing threat intelligence.
+
+---
+
+# 11. Methodological Limitations
+
+Analysts SHOULD acknowledge limitations such as:
+
+- Intelligence gaps
+- Restricted access
+- Dynamic threat activity
+- Conflicting reporting
+- Time constraints
+- Technical uncertainty
+
+These limitations increase transparency and assist readers in interpreting confidence assessments.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original methodology standard |
+| 2.0.0 | 2026-07-06 | Complete restructuring to align with CTAR Governance Charter v1.1.0. Introduced phased analytical workflow, evidence validation, confidence methodology, analytical independence, AI-assisted analysis, and reproducibility guidance. |
