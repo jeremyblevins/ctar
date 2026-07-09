@@ -50,8 +50,7 @@ Making Cyber Threat Intelligence Understandable
        Layout
        =========================== */
     --radius: 8px;
-    --shadow:
-        0 2px 8px rgba(0,0,0,.08);
+    --shadow: 0 2px 8px rgba(0,0,0,.08);
     --transition: .2s ease;
     --max-width: 1200px;
 }
@@ -59,267 +58,89 @@ Making Cyber Threat Intelligence Understandable
 /* ===================================================
    Logo
 =================================================== */
-.logo{
-    display:block;
-    width:180px;
-    height:auto;
-    margin:0 auto 2rem;
-}
+.logo{display:block; width:180px; height:auto; margin:0 auto 1rem;}
 
 /* ===================================================
    Reset
 =================================================== */
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+*{margin:0; padding:0; box-sizing:border-box;}
 
-html{
-    scroll-behavior:smooth;
-}
+html{scroll-behavior:smooth;}
 
-body{
-    font-family:var(--font-body);
-    background:var(--background);
-    color:var(--text);
-    line-height:1.75;
-    font-size:18px;
-}
+body{font-family:var(--font-body); background:var(--background); color:var(--text); line-height:1; font-size:12px;}
 
 /* ===================================================
    Layout
 =================================================== */
-.container{
-
-    width:min(80%, var(--max-width));
-    margin:auto;
-}
-section{
-    padding:2rem 0;
-}
+.container{width:min(70%, var(--max-width)); margin:auto;}
+section{padding:1rem 0;}
 
 /* ===================================================
    Typography
 =================================================== */
-h1,h2,h3,h4,h5,h6{
-    color:var(--ctar-navy);
-    margin-bottom:1rem;
-    line-height:1.2;
-}
-
-h1{
-    font-size:3rem;
-    font-weight:700;
-}
-
-h2{
-    font-size:2rem;
-    margin-top:2rem;
-}
-
-h3{
-    font-size:1.5rem;
-}
-
-p{
-    margin-bottom:1.2rem;
-
-}
-
-ul{
-    margin:1rem 0 1.5rem 2rem;
-}
-
-li{
-    margin-bottom:.5rem;
-}
-
-a{
-    color:var(--ctar-green);
-    text-decoration:none;
-    transition:var(--transition);
-}
-
-a:hover{
-    text-decoration:underline;
-}
+h1,h2,h3,h4,h5,h6{color:var(--ctar-navy); margin-bottom:0rem; line-height:1.2;}
+h1{font-size:3rem; font-weight:700;}
+h2{font-size:2rem; margin-top:2rem;}
+h3{font-size:1.5rem;}
+p{margin-bottom:.5rem;}
+ul{margin:1rem 0 1.5rem 2rem;}
+li{margin-bottom:.5rem;}
+a{color:var(--ctar-green); text-decoration:none; transition:var(--transition);}
+a:hover{text-decoration:underline;}
 
 /* ===================================================
    Header
 =================================================== */
-header{
-    background:white;
-    border-bottom:1px solid var(--border);
-    padding:1rem 0;
-    position:sticky;
-    top:0;
-    z-index:999;
-}
-
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-nav ul{
-    list-style:none;
-    display:flex;
-    gap:2rem;
-    margin:0;
-}
-
-nav li{
-    margin:0;
-}
+header{background:white; border-bottom:1px solid var(--border); padding:.5rem 0; position:sticky; top:0; z-index:999;}
+nav{display:flex; justify-content:space-between; align-items:center;}
+nav ul{list-style:none; display:flex; gap:2rem; margin:0;}
+nav li{margin:0;}
 
 /* ===================================================
    Hero
 =================================================== */
-.hero_banner{
-    text-align:center;
-    padding:4rem 0;
-}
-
-.hero_banner img{
-    max-width:300px;
-    margin-bottom:1rem;
-}
-
-.hero_banner h1{
-    margin-bottom:.5rem;
-}
-
-.hero_banner h2{
-    color:var(--ctar-green);
-    margin-top:0;
-}
-
-.hero_banner p{
-    max-width:850px;
-    margin:auto;
-    color:var(--text-light);
-}
+.hero_banner{text-align:center; padding:2rem 0;}
+.hero_banner img{max-width:300px; margin-bottom:1rem;}
+.hero_banner h1{margin-bottom:.5rem;}
+.hero_banner h2{color:var(--ctar-green); margin-top:0;}
+.hero_banner p{max-width:850px; margin:auto; color:var(--text-light);}
 
 /* ===================================================
    Buttons
 =================================================== */
-.button{
-    display:inline-block;
-    margin:2rem .5rem 0;
-    padding:.9rem 1.75rem;
-    border-radius:var(--radius);
-    font-weight:600;
-    transition:var(--transition);
-}
-
-.button-primary{
-    background:var(--ctar-green);
-    color:white;
-}
-
-.button-primary:hover{
-    background:#008C54;
-    text-decoration:none;
-}
-
-.button-secondary{
-    border:2px solid var(--ctar-green);
-    color:var(--ctar-green);
-}
-
-.button-secondary:hover{
-    background:var(--ctar-green);
-    color:white;
-    text-decoration:none;
-}
+.button{display:inline-block; margin:2rem .5rem 0; padding:.9rem 1.75rem; border-radius:var(--radius); font-weight:600; transition:var(--transition);}
+.button-primary{background:var(--ctar-green); color:white;}
+.button-primary:hover{background:#008C54; text-decoration:none;}
+.button-secondary{border:2px solid var(--ctar-green); color:var(--ctar-green);}
+.button-secondary:hover{background:var(--ctar-green); color:white; text-decoration:none;}
 
 /* ===================================================
    Cards
 =================================================== */
-.card-grid{
-    display:grid;
-    grid-template-columns:
-        repeat(auto-fit,minmax(320px,1fr));
-    gap:2rem;
-}
-
-.card{
-    background:white;
-    padding:2rem;
-    border-radius:var(--radius);
-    box-shadow:var(--shadow);
-    transition:var(--transition);
-}
-
-.card:hover{
-    transform:translateY(-4px);
-}
-
-.card h3{
-    margin-top:0;
-}
+.card-grid{display:grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); gap:2rem;}
+.card{background:white; padding:2rem; border-radius:var(--radius); box-shadow:var(--shadow); transition:var(--transition);}
+.card:hover{transform:translateY(-4px);}
+.card h3{margin-top:0;}
 
 /* ===================================================
    Tables
 =================================================== */
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin:2rem 0;
-}
-
-th{
-    background:var(--ctar-navy);
-    color:white;
-    padding:.8rem;
-    text-align:left;
-}
-
-td{
-    padding:.8rem;
-    border-bottom:1px solid var(--border);
-}
-
-tr:nth-child(even){
-    background:#F4F7FA;
-}
+table{width:100%; border-collapse:collapse; margin:.5rem 0;}
+th{background:var(--ctar-navy); color:white; padding:.8rem; text-align:left;}
+td{padding:.8rem; border-bottom:1px solid var(--border);}
+tr:nth-child(even){background:#F4F7FA;}
 
 /* ===================================================
    Code
 =================================================== */
-code{
-    font-family:var(--font-mono);
-    background:#EEF3F8;
-    padding:.15rem .3rem;
-    border-radius:4px;
-}
-
-pre{
-    background:var(--ctar-navy);
-    color:var(--ctar-green);
-    padding:1.5rem;
-    border-radius:var(--radius);
-    overflow:auto;
-    margin:2rem 0;
-}
-
-pre code{
-    background:none;
-    color:inherit;
-}
+code{font-family:var(--font-mono); background:#EEF3F8; padding:.15rem .3rem; border-radius:4px;}
+pre{background:var(--ctar-navy); color:var(--ctar-green); padding:1.5rem; border-radius:var(--radius); overflow:auto; margin:2rem 0;}
+pre code{background:none; color:inherit;}
 
 /* ===================================================
    Blockquotes
 =================================================== */
-blockquote{
-    border-left:6px solid var(--ctar-green);
-    padding-left:1.5rem;
-    margin:2rem 0;
-    font-size:1.2rem;
-    font-style:italic;
-}
+blockquote{border-left:6px solid var(--ctar-green); padding-left:1.5rem; margin:.5rem 0; font-size:1.2rem; font-style:italic;}
 
 /* ===================================================
    Admonitions
@@ -327,114 +148,45 @@ blockquote{
 .note,
 .tip,
 .warning,
-.evidence{
-    padding:1.25rem;
-    border-radius:var(--radius);
-    margin:2rem 0;
-}
-
-.note{
-    background:#E8F2FD;
-    border-left:6px solid #2C7BE5;
-}
-
-.tip{
-    background:#EAFBF3;
-    border-left:6px solid var(--ctar-green);
-}
-
-.warning{
-    background:#FFF8E6;
-    border-left:6px solid var(--warning);
-}
-
-.evidence{
-    background:#F5F7FA;
-    border-left:6px solid var(--ctar-navy);
-}
+.evidence{padding:1.25rem; border-radius:var(--radius); margin:2rem 0;}
+.note{background:#E8F2FD; border-left:6px solid #2C7BE5;}
+.tip{background:#EAFBF3; border-left:6px solid var(--ctar-green);}
+.warning{background:#FFF8E6; border-left:6px solid var(--warning);}
+.evidence{background:#F5F7FA; border-left:6px solid var(--ctar-navy);}
 
 /* ===================================================
    Images
 =================================================== */
-img{
-    max-width:100%;
-    height:auto;
-}
+img{max-width:100%; height:auto;}
 
 /* ===================================================
    Footer
 =================================================== */
-footer{
-    background:var(--ctar-navy);
-    color:white;
-    text-align:center;
-    padding:3rem 0;
-    margin-top:5rem;
-}
+footer{background:var(--ctar-navy); color:white; text-align:center; padding:2rem 0; margin-top:3rem;
 
-footer a{
-    color:var(--ctar-green);
-}
+footer a{color:var(--text-light);}
 
 /* ===================================================
    Horizontal Rule
 =================================================== */
-hr{
-    border:none;
-    border-top:1px solid var(--border);
-    margin:3rem 0;
-}
+hr{border:none; border-top:1px solid var(--border); margin:3rem 0;}
 
 /* ===================================================
    Responsive
 =================================================== */
 @media (max-width:768px){
-    body{
-        font-size:16px;
-    }
-
-    nav{
-        flex-direction:column;
-        gap:1rem;
-    }
-
-    nav ul{
-        flex-direction:column;
-        gap:.75rem;
-        align-items:center;
-    }
-
-    h1{
-        font-size:2.2rem;
-    }
-
-    h2{
-        font-size:1.6rem;
-    }
-
-    .hero{
-        padding:2rem 0;
-    }
+    body{font-size:16px;}
+    nav{flex-direction:column; gap:1rem;}
+    nav ul{flex-direction:column; gap:.75rem; align-items:center;}
+    h1{font-size:2.2rem;}
+    h2{font-size:1.6rem;}
+    .hero{padding:2rem 0;}
 }
 
 /* ===================================================
    Print
 =================================================== */
-@media print{
-    header,
-    footer,
-    .button{
-        display:none;
-    }
-
-    body{
-        background:white;
-        color:black;
-        font-size:12pt;
-    }
-
-    a{
-        color:black;
-        text-decoration:none;
-    }
+@media print{header, footer, .button{display:none;}
+    body{background:white; color:black; font-size:12pt;}
+    a{color:black; text-decoration:none;}
 }
