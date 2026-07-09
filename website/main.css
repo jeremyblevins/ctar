@@ -63,6 +63,16 @@ Making Cyber Threat Intelligence Understandable
 
 }
 
+/* ===================================================
+   Logo
+=================================================== */
+
+.logo{
+    display:block;
+    width:180px;
+    height:auto;
+    margin:0 auto 2rem;
+}
 
 /* ===================================================
    Reset
