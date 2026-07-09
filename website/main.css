@@ -1,14 +1,13 @@
 /*
 ----------------------------------------------------
 CTAR Framework Stylesheet
-Version: 1.0.0
+Version: 1.1.0
 Project: Cyber Threat Assessment and Reporting (CTAR)
 https://ctarframework.org
-
+---
 Making Cyber Threat Intelligence Understandable
 ----------------------------------------------------
 */
-
 :root {
     /* ===========================
        CTAR Brand Colors
@@ -85,14 +84,14 @@ h3{font-size:1.5rem;}
 p{margin-bottom:.5rem;}
 ul{margin:1rem 0 1.5rem 2rem;}
 li{margin-bottom:.5rem;}
-a{color:var(--ctar-green); text-decoration:none; transition:var(--transition);}
+a{color:var(--ctar-navy); text-decoration:none; transition:var(--transition);}
 a:hover{text-decoration:underline;}
 
 /* ===================================================
    Header
 =================================================== */
 header{background:white; border-bottom:1px solid var(--border); padding:.5rem 0; position:sticky; top:0; z-index:999;}
-nav{display:flex; justify-content:space-between; align-items:center;}
+nav{background:background; display:flex; justify-content:space-between; align-items:center;}
 nav ul{list-style:none; display:flex; gap:2rem; margin:0;}
 nav li{margin:0;}
 
