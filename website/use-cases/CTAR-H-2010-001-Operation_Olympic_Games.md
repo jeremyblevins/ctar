@@ -175,28 +175,22 @@ This chapter intentionally begins with strategy rather than malware. CTAR Histor
 The strategic considerations described in this chapter established **why** policymakers pursued a cyber operation. The next chapter examines the geopolitical and historical developments that shaped Iran's nuclear program and created the conditions under which Operation Olympic Games became a viable strategic option.
 ---
 
-# Chapter 2
-# Historical Background
-
+# Chapter 2: # Historical Background
 **Guiding Question:** What geopolitical and historical conditions made Operation Olympic Games possible?
-
-> **Editorial Note**
->
-> This recovered chapter has been lightly harmonized for publication consistency.
 
 ## Introduction
 
-Operation Olympic Games cannot be understood without examining the historical development of Iran's nuclear program and the international response it generated. By the time Stuxnet was deployed, decades of political change, diplomatic negotiations, technological development, and international concern had shaped an environment in which cyber sabotage emerged as an alternative to conventional military action.
+Operation Olympic Games cannot be understood without examining the historical development of Iran's nuclear program and the international response it generated. By the time Stuxnet was deployed, decades of political change, diplomatic negotiations, technological development, and international concern had shaped an environment in which cyber sabotage emerged as an alternative to conventional military action. Understanding this historical context allows analysts to distinguish strategic causes from technical implementation, a distinction that lies at the heart of the CTAR methodology.
 
 ## The Origins of Iran's Nuclear Program
 
 Iran's civilian nuclear program began under the Shah as part of the United States' *Atoms for Peace* initiative. Following the 1979 Islamic Revolution, progress slowed considerably before renewed investment in nuclear infrastructure during the 1990s and early 2000s.
 
-As enrichment capabilities expanded, international attention increasingly focused on whether the program could support the development of nuclear weapons.
+As Iran's enrichment capabilities expanded, international attention increasingly focused on whether the program remained exclusively civilian or could support the development of nuclear weapons. That question would ultimately shape diplomatic negotiations, international sanctions, intelligence collection, and future covert operations.
 
 ## Discovery of Natanz
 
-In 2002, previously undisclosed nuclear facilities near Natanz became public knowledge. Subsequent inspections by the International Atomic Energy Agency (IAEA) intensified international scrutiny of Iran's enrichment activities.
+In 2002, previously undisclosed nuclear facilities near Natanz became public knowledge. Subsequent inspections by the International Atomic Energy Agency (IAEA) intensified international scrutiny of Iran's enrichment activities. The disclosure fundamentally altered international assessments of Iran's nuclear ambitions and shifted the policy discussion from long-term monitoring toward active measures intended to delay or constrain enrichment activities.
 
 Natanz ultimately became the centerpiece of Iran's uranium enrichment program and, according to widely accepted open-source reporting, the principal operational target of Operation Olympic Games.
 
@@ -213,7 +207,7 @@ These included:
 - Intelligence collection
 - Consideration of military options
 
-Each approach presented advantages and limitations. Decision-makers sought alternatives capable of delaying enrichment while minimizing the political and humanitarian consequences of conventional military strikes.
+Each approach offered potential advantages while carrying distinct political, military, and diplomatic risks. Decision-makers therefore sought alternatives capable of delaying enrichment without triggering the regional instability that could accompany conventional military action.
 
 ## Emergence of Cyber Sabotage
 
@@ -225,17 +219,17 @@ Operation Olympic Games represented the first publicly documented example of thi
 
 > **Historical Perspective**
 >
-> Throughout history, technological innovation has repeatedly altered the methods by which states pursue strategic objectives. Cyber operations joined diplomacy, economic pressure, intelligence collection, and military force as another instrument available to policymakers.
+> Throughout history, technological innovation has repeatedly expanded the instruments available to states pursuing strategic objectives. Just as airpower, signals intelligence, and precision-guided weapons reshaped earlier eras of conflict, cyber operations emerged as another means by which governments could influence adversaries while pursuing broader national objectives.
 
-## Analytic Judgment
-
-**Question:** Why is the historical background important?
-
-**Judgment:** The geopolitical history surrounding Iran's nuclear program explains why policymakers considered a covert cyber operation to be a viable strategic alternative.
-
-**Confidence:** High
-
-**Supporting Evidence:** Public diplomatic history, IAEA reporting, and subsequent historical analyses consistently demonstrate that cyber operations were evaluated within a broader spectrum of national policy options.
+> **Analytic Judgment**
+>
+> **Question:** Why is the historical background important?
+>
+> **Judgment:** The geopolitical history surrounding Iran's nuclear program explains why policymakers considered a covert cyber operation to be a viable strategic alternative.
+>
+> **Confidence:** High
+>
+> **Supporting Evidence:** Public diplomatic history, IAEA reporting, and subsequent historical analyses consistently demonstrate that cyber operations were evaluated within a broader spectrum of national policy options.
 
 ## Lessons for Defenders
 
@@ -246,7 +240,7 @@ Operation Olympic Games represented the first publicly documented example of thi
 
 ## Analyst's Notebook
 
-Historical context is intentionally presented before technical analysis. Analysts who understand the strategic environment are better equipped to interpret adversary objectives, operational constraints, and campaign design.
+Historical context precedes technical analysis because adversary capabilities are best understood in light of the strategic problems they were intended to solve. Analysts who understand the geopolitical environment are better equipped to interpret operational design, target selection, and campaign objectives.
 
 ## Questions for Students
 
@@ -255,22 +249,11 @@ Historical context is intentionally presented before technical analysis. Analyst
 3. How did international diplomacy influence the operational environment?
 4. Why should threat analysts study geopolitical history alongside technical evidence?
 
-## Transition to Chapter 3
-
-With the historical and geopolitical context established, the next chapter examines how Operation Olympic Games was planned, prepared, and developed before the first malware sample was ever deployed.
-
+The geopolitical conditions described in this chapter explain **why** a covert cyber operation became an attractive policy option. The next chapter shifts from international context to operational planning, examining how years of intelligence preparation, engineering, and strategic coordination laid the foundation for Operation Olympic Games before the first line of malware was written.
 ---
 
-# Chapter 3
-# Origins of Operation Olympic Games
-
+# Chapter 3: Origins of Operation Olympic Games
 **Guiding Question:** How was a campaign of this complexity planned and prepared?
-
-> **Editorial Note**
->
-> This recovered chapter has been lightly harmonized for publication consistency.
-
----
 
 ## Introduction
 
