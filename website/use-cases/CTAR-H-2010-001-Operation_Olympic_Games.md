@@ -1,10 +1,12 @@
-# CTAR-H-2010-001
-# Operation Olympic Games
-## Cyber Threat Assessment Report (Historical)
+# Cyber Threat Assessment Report (CTAR)
 
-Framework Version: CTAR Framework v2.1.0
-Report Version: 1.0.0
-Publication Status: Initial Release
+**CTAR ID:** CTAR-H-2010-001  
+**Report Version:** 1.0.0  
+**Framework Version:** CTAR Framework v2.1.0  
+**Classification:** Public Release  
+**Publication Date:** 10 July 2026  
+**Threat Category:** Historical Cyber Threat Assessment  
+**Subject:** Operation Olympic Games
 
 > **Derived from Open Sources**
 
