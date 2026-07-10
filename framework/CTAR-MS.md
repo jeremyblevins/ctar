@@ -1,6 +1,6 @@
 # CTAR Methodology Standard (CTAR-MS)
 
-**Version:** 2.0.0  
+**Version:** 2.1.0  
 **Status:** Draft Standard
 
 ---
@@ -28,7 +28,45 @@ Where conflicts exist, Governance Charter requirements SHALL take precedence.
 
 ---
 
-# 3. Core Analytical Principles
+# 3. CTAR Analytical Product Types
+
+The Cyber Threat Assessment and Reporting (CTAR) Framework supports multiple analytical products. Although each product serves a different purpose, all SHALL follow the methodological principles defined in this standard unless explicitly exempted.
+
+## 3.1 Cyber Threat Assessment Reports (CTARs)
+
+Cyber Threat Assessment Reports evaluate current or emerging cybersecurity events, vulnerabilities, threat actors, campaigns, technologies, or risks. Their primary purpose is to support operational awareness and informed decision-making.
+
+## 3.2 CTAR Historical Case Studies
+
+CTAR Historical Case Studies apply the CTAR methodology to historically significant cyber incidents, campaigns, or operations whose principal value lies in education rather than time-sensitive reporting.
+
+Unlike current Cyber Threat Assessment Reports, Historical Case Studies emphasize analytical reasoning, strategic context, historical perspective, and enduring defensive lessons.
+
+Historical Case Studies SHALL:
+- Apply the same evidence-based analytical methodology required of CTAR reports.
+- Distinguish clearly between established facts, analytical judgments, assumptions, and uncertainty.
+- Include explicit confidence assessments.
+- Present sufficient historical context.
+- Translate historical observations into practical defensive and educational lessons.
+- Encourage critical thinking.
+
+Examples include CTAR-H-1988-001 (Morris Worm), CTAR-H-2000-001 (ILOVEYOU), CTAR-H-2010-001 (Operation Olympic Games), CTAR-H-2017-001 (NotPetya), and CTAR-H-2020-001 (SolarWinds).
+
+## 3.3 Common Methodology
+
+Regardless of product type, every official CTAR publication SHALL:
+- Be evidence-based.
+- Clearly separate evidence from analysis.
+- Communicate confidence explicitly.
+- Identify uncertainty and intelligence gaps.
+- Apply the CTAR Source Reliability Matrix.
+- Comply with the CTAR Governance Charter.
+
+> **CTAR Principle:** CTAR is methodology-driven, not product-driven.
+
+---
+
+# 4. Core Analytical Principles
 
 Every CTAR SHALL be:
 
@@ -291,3 +329,4 @@ These limitations increase transparency and assist readers in interpreting confi
 |----------|------|-------------|
 | 1.0.0 | Initial Release | Original methodology standard |
 | 2.0.0 | 2026-07-06 | Complete restructuring to align with CTAR Governance Charter v1.1.0. Introduced phased analytical workflow, evidence validation, confidence methodology, analytical independence, AI-assisted analysis, and reproducibility guidance. |
+| 2.1.0 | 2026-07-10 | Introduced formal CTAR analytical product taxonomy, including Cyber Threat Assessment Reports and CTAR Historical Case Studies. Clarified that both product types follow the same evidence-based methodology while serving different operational and educational purposes. |
