@@ -2,6 +2,10 @@
 # Operation Olympic Games
 ## Cyber Threat Assessment Report (Historical)
 
+Framework Version: CTAR Framework v2.1.0
+Report Version: 1.0.0
+Publication Status: Initial Release
+
 > **Derived from Open Sources**
 
 ---
@@ -52,6 +56,25 @@ If this volume succeeds, readers will finish it with more than an understanding 
 That objective lies at the heart of the CTAR Framework.
 
 Welcome to the first volume of the **CTAR Historical Case Study Series**.
+
+# Applying the CTAR Methodology
+
+This Historical Case Study applies the Cyber Threat Assessment and Reporting (CTAR) methodology to a historically significant cyber operation.
+
+Unlike conventional historical narratives, CTAR distinguishes between:
+
+- observed facts,
+- corroborated evidence,
+- analytical interpretation,
+- assumptions,
+- confidence assessments,
+- remaining uncertainty.
+
+Readers will encounter these elements throughout the report as the analysis progresses from strategic context to historical evidence, technical assessment, attribution, campaign effectiveness, and defensive lessons.
+
+Although Operation Olympic Games is a historical event, the analytical process used throughout this publication is identical to that used for contemporary Cyber Threat Assessment Reports.
+
+The objective is not merely to understand one campaign, but to learn a disciplined approach to cyber threat analysis.
 
 # Chapter 1
 # Strategic Context
