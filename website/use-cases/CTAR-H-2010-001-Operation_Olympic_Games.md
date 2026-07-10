@@ -169,7 +169,7 @@ This chapter intentionally begins with strategy rather than malware. CTAR Histor
 
 The strategic considerations described in this chapter established **why** policymakers pursued a cyber operation. The next chapter examines the geopolitical and historical developments that shaped Iran's nuclear program and created the conditions under which Operation Olympic Games became a viable strategic option.
 
-# Chapter 2: # Historical Background
+# Chapter 2: Historical Background
 **Guiding Question:** What geopolitical and historical conditions made Operation Olympic Games possible?
 
 ## Introduction
