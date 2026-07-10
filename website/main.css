@@ -180,9 +180,10 @@ table {
 }
 
 td, th {
-  border: 1px solid #00A463;
-  text-align: center;
-  padding: 8px;
+    border: 1px solid #00A463;
+    text-align: center;
+    padding: 8px;
+    spacing: 20px;
 }
 
 tr:nth-child(even) {
