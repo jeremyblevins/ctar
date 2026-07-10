@@ -78,9 +78,7 @@ Although Operation Olympic Games is a historical event, the analytical process u
 
 The objective is not merely to understand one historical campaign, but to demonstrate how disciplined cyber threat analysis transforms evidence into transparent, evidence-based assessments. Readers are encouraged to evaluate not only the conclusions presented throughout this report, but also the analytical reasoning used to reach them.
 
-# Chapter 1
-# Strategic Context
-
+# Chapter 1: Strategic Context
 **Guiding Question:** Why did policymakers consider a cyber operation instead of conventional military action?
 
 ## Introduction
