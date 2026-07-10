@@ -171,6 +171,25 @@ footer a{color:var(--text-light);}
 hr{border:none; border-top:1px solid var(--border); margin:3rem 0;}
 
 /* ===================================================
+       Table
+=================================================== */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #00A463;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #00A463;
+}
+       
+/* ===================================================
    Responsive
 =================================================== */
 @media (max-width:768px){
