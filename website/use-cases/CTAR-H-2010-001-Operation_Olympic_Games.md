@@ -23,6 +23,36 @@
 
 ---
 
+# Foreword
+
+Cybersecurity has no shortage of technical reports.
+
+Every year, governments publish advisories, vendors release vulnerability analyses, incident responders document compromises, and researchers reverse engineer increasingly sophisticated malware. Collectively, these publications provide an extraordinary record of cyber activity. What they often do not provide is a structured explanation of **how analysts transform evidence into sound analytical judgment**.
+
+The Cyber Threat Assessment and Reporting (CTAR) Framework was developed to address that gap.
+
+CTAR is not merely a reporting template. It is an analytical methodology designed to make cyber threat intelligence understandable, transparent, and reproducible. It encourages analysts to distinguish observation from assessment, communicate confidence explicitly, identify uncertainty honestly, and explain the reasoning that connects evidence to conclusions. These principles are as important in the study of historical cyber operations as they are in the assessment of contemporary threats.
+
+The CTAR Historical Case Study Series extends that methodology into cybersecurity education.
+
+Rather than producing conventional histories of notable cyber incidents, each Historical Case Study examines a significant campaign through the lens of structured cyber threat analysis. Historical events provide a stable body of evidence from which students, practitioners, and educators can study not only *what happened*, but also *why it happened*, *how analysts evaluate competing explanations*, and *what enduring lessons should inform modern defensive practice*.
+
+Operation Olympic Games was selected as the inaugural Historical Case Study because it represents a watershed moment in the evolution of cyber operations. Publicly revealed through the discovery of the Stuxnet malware in 2010, the campaign demonstrated that software could achieve carefully controlled physical effects against industrial infrastructure while supporting broader strategic objectives. It fundamentally changed how governments, industry, and the cybersecurity profession understand the relationship between cyberspace and the physical world.
+
+Yet this publication is not intended to be the definitive history of Stuxnet.
+
+Excellent technical analyses, investigative reporting, academic research, and historical accounts already exist. The purpose of this volume is different. Its objective is to demonstrate disciplined cyber threat analysis by applying the CTAR methodology to one of the most influential cyber campaigns ever conducted.
+
+Readers should therefore approach this publication as both a historical case study and an educational exercise. Throughout the report, observations are distinguished from analytical judgments, confidence assessments accompany significant conclusions, alternative explanations are considered where appropriate, and uncertainty is explicitly acknowledged. These practices reflect the analytical standards that CTAR seeks to promote across all of its publications.
+
+Cybersecurity is ultimately a discipline of decision-making under conditions of incomplete information. Analysts rarely possess perfect evidence, complete visibility, or absolute certainty. The value of structured analysis lies not in eliminating uncertainty, but in making analytical reasoning transparent enough that others can evaluate, challenge, reproduce, and improve it.
+
+If this volume succeeds, readers will finish it with more than an understanding of Operation Olympic Games. They will better understand how disciplined cyber threat analysts evaluate complex evidence, develop reasoned judgments, and communicate those judgments responsibly.
+
+That objective lies at the heart of the CTAR Framework.
+
+Welcome to the first volume of the **CTAR Historical Case Study Series**.
+
 # Chapter 1
 # Strategic Context
 
