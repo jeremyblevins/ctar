@@ -77,10 +77,10 @@ section{padding:0rem 0;}
 /* ===================================================
    Typography
 =================================================== */
-h1,h2,h3,h4,h5,h6{color:var(--ctar-navy); margin-bottom:0rem; line-height:1.2;}
+h1,h2,h3,h5,h6{color:var(--ctar-navy); margin-bottom:0rem; line-height:1.2;}
 h1{font-size:3rem; font-weight:700;}
 h2{font-size:2rem; margin-top:2rem;}
-h3{font-size:1.5rem; style="color:ctar-green";}
+h3{font-size:1.5rem; color:var(--ctar-green);}
 p{margin-bottom:.5rem;}
 ul{margin:1rem 0 1.5rem 2rem;}
 li{margin-bottom:.5rem;}
