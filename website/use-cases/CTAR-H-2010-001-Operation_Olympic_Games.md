@@ -62,6 +62,11 @@ Readers will encounter these elements throughout the report as the analysis prog
 
 Although Operation Olympic Games is a historical event, the analytical process used throughout this publication is identical to that used for contemporary Cyber Threat Assessment Reports. The objective is not merely to understand one historical campaign, but to demonstrate how disciplined cyber threat analysis transforms evidence into transparent, evidence-based assessments. Readers are encouraged to evaluate not only the conclusions presented throughout this report, but also the analytical reasoning used to reach them.
 
+# AI Participation Disclosure
+This publication was developed in accordance with the CTAR AI Participation Policy. Artificial intelligence tools were used to assist with drafting, editing, formatting, grammar review, and organizational refinement during the preparation of this report. AI-generated content was treated as a drafting aid rather than an authoritative source of information.
+
+All analytical judgments, technical interpretations, historical assessments, and editorial decisions were reviewed and approved by the author prior to publication. No analytical conclusions were accepted solely on the basis of AI-generated output. All factual claims and supporting evidence presented in this report are derived from publicly available sources identified in the Selected References section and evaluated using the CTAR methodology.
+
 # Source Foundation
 This assessment was developed exclusively from publicly available information. Rather than relying upon any single publication, the analysis synthesizes information from multiple independent sources including:
 - Technical reverse engineering reports
