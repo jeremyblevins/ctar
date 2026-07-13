@@ -46,6 +46,9 @@ If this volume succeeds, readers will finish it with more than an understanding 
 
 Welcome to the first volume of the **CTAR Historical Case Study Series**.
 
+## About the CTAR Historical Case Study Series
+The CTAR Historical Case Study Series applies the Cyber Threat Assessment and Reporting (CTAR) Framework to historically significant cyber operations. Each volume is designed as an educational resource that demonstrates structured, evidence-based cyber threat analysis while preserving historical accuracy. Rather than serving as definitive histories, these publications illustrate how disciplined analysts transform evidence into transparent analytical judgments.
+
 # Applying the CTAR Methodology
 This Historical Case Study applies the Cyber Threat Assessment and Reporting (CTAR) methodology to a historically significant cyber operation. Unlike conventional historical narratives, CTAR distinguishes between:
 - observed facts,
@@ -558,7 +561,7 @@ Impact was carefully controlled and strategically focused. From a behavioral per
 
 # Behavioral Assessment Summary
 | ATT&CK Tactic | Assessment |
-|||
+|---------------|------------|
 | Reconnaissance | Extensive |
 | Resource Development | Extensive |
 | Initial Access | Precision |
@@ -593,8 +596,6 @@ Several enduring lessons emerge from this behavioral assessment:
 - ATT&CK should inform defensive planning, but analysts should always interpret behaviors within their broader strategic and operational context.
 
 ## Analyst's Notebook
-One reason ATT&CK appears after the technical architecture chapter is that students should first understand **what happened** before learning to describe it using a structured analytical framework.
-
 ATT&CK provides a common language for comparing campaigns, but it should never replace historical understanding. CTAR therefore uses ATT&CK as a descriptive framework rather than an analytical endpoint. The framework organizes observations; disciplined analysis explains their significance. 
 
 Frameworks support analysis. They do not substitute for it. CTAR therefore uses ATT&CK as a descriptive framework rather than an analytical endpoint. The framework organizes observations; disciplined analysis explains their significance.
@@ -692,7 +693,7 @@ Today, the campaign remains a foundational case study within cybersecurity educa
 
 ## Timeline Summary
 | Phase | Approximate Period | Primary Activity |
-|--|--||
+|-------|--------------------|------------------|
 | Strategic Assessment | 2002–2004 | Policy evaluation |
 | Intelligence Preparation | 2004–2006 | Intelligence collection |
 | Development & Testing | 2005–2008 | Malware engineering |
@@ -721,9 +722,7 @@ Several important observations emerge from the campaign timeline:
 - Building and maintaining organizational timelines during incident response can reveal adversary behaviors that individual security events fail to expose.
 
 ## Analyst's Notebook
-Many cybersecurity timelines begin with malware discovery. This chapter intentionally begins years earlier. From an intelligence perspective, malware deployment is not the beginning of a campaign. It is the culmination of strategic planning, intelligence collection, engineering, and operational preparation.
-
-From a CTAR perspective, malware deployment is not the beginning of a campaign. It is the culmination of strategic planning, intelligence collection, engineering, and operational preparation. Constructing accurate timelines helps analysts distinguish isolated technical events from coordinated campaigns and identify opportunities for earlier detection and disruption.
+Many cybersecurity timelines begin with malware discovery. This chapter intentionally begins years earlier. From a CTAR perspective, malware deployment is not the beginning of a campaign. It is the culmination of strategic planning, intelligence collection, engineering, and operational preparation. Constructing accurate timelines helps analysts distinguish isolated technical events from coordinated campaigns and identify opportunities for earlier detection and disruption.
 
 ## Questions for Students
 1. Which phase of the campaign do you believe required the greatest investment?
@@ -951,7 +950,7 @@ Successful development required expertise spanning:
 
 Such multidisciplinary capabilities exceed those typically associated with financially motivated cybercrime.
 
-**Assessment:* Technical sophistication strongly supports a nation-state assessment.
+**Assessment:** Technical sophistication strongly supports a nation-state assessment.
 
 **Confidence:** High
 
@@ -1010,7 +1009,7 @@ This hypothesis best explains the target selection, engineering sophistication, 
 
 ## Confidence Assessment
 | Analytical Judgment | Confidence |
-|-||
+|---------------------|------------|
 | Nation-state sponsorship | High |
 | Strategic objective was delay rather than destruction | High |
 | Target was the Natanz enrichment facility | High |
@@ -1185,11 +1184,11 @@ Operation Olympic Games also introduced significant long-term risks. These inclu
 - Normalization of cyber sabotage.
 - Acceleration of international cyber competition.
 
-Many of these risks ultimately materialized,illustrating that operational success can generate unintended strategic consequences. Operational success therefore produced strategic consequences extending well beyond the original mission.
+Many of these risks ultimately materialized, illustrating that operational success can generate unintended strategic consequences. Operational success therefore produced strategic consequences extending well beyond the original mission.
 
 ## Overall Intelligence Assessment
 | Dimension | Assessment |
-|--||
+|-----------|------------|
 | Technical Success | High |
 | Operational Success | High |
 | Strategic Delay | Moderate to High |
@@ -1465,6 +1464,6 @@ The campaigns will change. The principles of disciplined analysis should not.
 Operation Olympic Games serves as the inaugural volume of the CTAR Historical Case Study Series. Future volumes will apply the same evidence-based methodology to additional historical campaigns, allowing readers to compare adversaries, technologies, strategic objectives, and analytical judgments across multiple eras of cyber conflict. The goal is not simply to document history, but to build a growing body of educational case studies that strengthen the practice of cyber threat intelligence.
 
 # Afterword
-Operation Olympic Games serves as the inaugural volume of the CTAR Historical Case Study Series. Future volumes will apply the same evidence-based methodology to additional historical campaigns, allowing readers to compare adversaries, technologies, strategic objectives, and analytical judgments across multiple eras of cyber conflict. The goal is not simply to document history, but to build a growing body of educational case studies that strengthen the practice of cyber threat intelligence.
+Operation Olympic Games is often remembered because it introduced the world to Stuxnet. It deserves equal recognition for another reason. It reminds us that cyber operations are ultimately conducted by people making decisions under conditions of uncertainty. Those decisions are informed by intelligence, constrained by policy, enabled by engineering, and evaluated through disciplined analysis. Technology will continue to evolve. Human judgment will remain. The purpose of the CTAR Framework is to help future analysts understand both.
 
 **Making Cyber Threat Intelligence Understandable.**
