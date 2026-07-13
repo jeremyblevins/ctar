@@ -62,6 +62,17 @@ Readers will encounter these elements throughout the report as the analysis prog
 
 Although Operation Olympic Games is a historical event, the analytical process used throughout this publication is identical to that used for contemporary Cyber Threat Assessment Reports. The objective is not merely to understand one historical campaign, but to demonstrate how disciplined cyber threat analysis transforms evidence into transparent, evidence-based assessments. Readers are encouraged to evaluate not only the conclusions presented throughout this report, but also the analytical reasoning used to reach them.
 
+# Source Foundation
+This assessment was developed exclusively from publicly available information. Rather than relying upon any single publication, the analysis synthesizes information from multiple independent sources including:
+- Technical reverse engineering reports
+- Government publications
+- Academic research
+- Historical reporting
+- Industrial control system research
+- Cybersecurity vendor analyses
+
+Analytical judgments throughout this report reflect the convergence of multiple independent sources rather than any individual publication. A complete bibliography appears at the end of this report.
+
 # Chapter 1: Strategic Context
 **Guiding Question:** Why did policymakers consider a cyber operation instead of conventional military action?
 
@@ -1465,5 +1476,66 @@ Operation Olympic Games serves as the inaugural volume of the CTAR Historical Ca
 
 # Afterword
 Operation Olympic Games is often remembered because it introduced the world to Stuxnet. It deserves equal recognition for another reason. It reminds us that cyber operations are ultimately conducted by people making decisions under conditions of uncertainty. Those decisions are informed by intelligence, constrained by policy, enabled by engineering, and evaluated through disciplined analysis. Technology will continue to evolve. Human judgment will remain. The purpose of the CTAR Framework is to help future analysts understand both.
+
+# Selected References
+The analysis presented in this report is derived exclusively from publicly available information. Rather than relying on any single publication, this assessment synthesizes historical reporting, government publications, technical reverse engineering, academic research, and established cybersecurity frameworks. Analytical judgments reflect the convergence of multiple independent sources.
+
+## Government Publications
+- International Atomic Energy Agency (IAEA). (2003–2011). *Reports by the Director General on the Implementation of the NPT Safeguards Agreement in the Islamic Republic of Iran.* https://www.iaea.org/publications/reports
+- International Atomic Energy Agency (IAEA). (2011). *Implementation of the NPT Safeguards Agreement and Relevant Provisions of United Nations Security Council Resolutions in the Islamic Republic of Iran.* https://www.iaea.org/publications
+- Cybersecurity and Infrastructure Security Agency (CISA). *Industrial Control Systems (ICS) Advisories and Guidance.* https://www.cisa.gov/ics
+- National Institute of Standards and Technology. (2025). *NIST Special Publication 800-61 Revision 3: Incident Response Recommendations and Considerations for Cybersecurity Risk Management.* https://csrc.nist.gov/pubs/sp/800/61/r3/final
+- National Institute of Standards and Technology. (2023). *NIST Special Publication 800-82 Revision 3: Guide to Operational Technology (OT) Security.* https://csrc.nist.gov/pubs/sp/800/82/r3/final
+- National Institute of Standards and Technology. (2024). *Cybersecurity Framework (CSF) 2.0.* https://www.nist.gov/cyberframework
+
+## Technical Analyses
+- Falliere, N., Murchu, L. O., & Chien, E. (2011). *W32.Stuxnet Dossier.* Symantec Security Response. https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en
+- Langner, R. (2011). *Stuxnet: Dissecting a Cyberwarfare Weapon.* https://www.langner.com/stuxnet/
+- Langner, R. (2013). *To Kill a Centrifuge.* https://www.langner.com/to-kill-a-centrifuge/
+- Kaspersky Lab. (2011). *Stuxnet Under the Microscope.* https://securelist.com/stuxnet-under-the-microscope/31470/
+- VirusBlokAda. (2010). Initial public identification of the Stuxnet malware. https://virusblokada.com/
+- Siemens AG. *Security Advisories for Stuxnet and SIMATIC Step7.* https://cert-portal.siemens.com/
+
+## Books
+- Perlroth, N. (2021). *This Is How They Tell Me the World Ends.* Bloomsbury Publishing. https://www.bloomsbury.com/us/this-is-how-they-tell-me-the-world-ends-9781635576054/
+- Sanger, D. E. (2012). *Confront and Conceal: Obama's Secret Wars and Surprising Use of American Power.* Crown Publishers. https://www.penguinrandomhouse.com/books/205952/confront-and-conceal-by-david-e-sanger/
+- Zetter, K. (2014). *Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon.* Crown Publishers. https://www.penguinrandomhouse.com/books/217810/countdown-to-zero-day-by-kim-zetter/
+
+## Academic and Professional Publications
+- IEEE Xplore Digital Library. Industrial Control Systems Security and Stuxnet research. https://ieeexplore.ieee.org/
+- ACM Digital Library. Cyber-Physical Systems and Operational Technology Security research. https://dl.acm.org/
+
+## Intelligence and Strategic Studies
+- Center for Naval Analyses (CNA). Cyber and National Security Research. https://www.cna.org/
+- Center for Strategic and International Studies (CSIS). *Significant Cyber Incidents Timeline.* https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents
+- RAND Corporation. Cyber Research. https://www.rand.org/topics/cyber.html
+- Royal United Services Institute (RUSI). Cyber and Technology Research. https://www.rusi.org/explore-our-research/topics/cyber
+
+## Threat Intelligence Frameworks
+- MITRE ATT&CK® Enterprise. https://attack.mitre.org/
+- MITRE ATT&CK® for ICS. https://attack.mitre.org/matrices/ics/
+- MITRE D3FEND. https://d3fend.mitre.org/
+
+## Standards and Guidance
+- ISA/IEC 62443 Standards. https://www.isa.org/standards-and-publications/isa-standards/isa-62443-series-of-standards
+- NIST Cybersecurity Framework 2.0. https://www.nist.gov/cyberframework
+- NIST SP 800-82 Rev. 3: Guide to Operational Technology Security. https://csrc.nist.gov/pubs/sp/800/82/r3/final
+
+## Historical Reporting
+- BBC News. Stuxnet coverage. https://www.bbc.com/news/topics/c34mdd2gw1zt/stuxnet
+- Reuters. Cybersecurity and Iran coverage. https://www.reuters.com/world/
+- The New York Times. Operation Olympic Games reporting. https://www.nytimes.com/
+- The Washington Post. Cybersecurity reporting. https://www.washingtonpost.com/
+
+# License
+Copyright © 2026 CTAR Project.
+This work is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. You are free to:
+- Share — copy and redistribute the material in any medium or format.
+- Adapt — remix, transform, and build upon the material for any purpose, including commercial use.
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the CTAR Project endorses you or your use.
+
+To view a copy of this license, visit: https://creativecommons.org/licenses/by/4.0/
 
 **Making Cyber Threat Intelligence Understandable.**
