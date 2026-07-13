@@ -882,7 +882,9 @@ This chapter evaluated **what conclusions can be supported by the available evid
 
 ## Introduction
 
-Attribution is among the most difficult and frequently misunderstood aspects of cyber threat intelligence. Unlike conventional military operations, cyber campaigns rarely conclude with an adversary publicly accepting responsibility. Instead, analysts evaluate technical evidence, operational characteristics, strategic context, intelligence reporting, and historical information to determine which explanations are most consistent with the available evidence.
+## Introduction
+
+Having established what conclusions can reasonably be supported by the available evidence, the analysis now turns to one of cyber threat intelligence's most challenging questions: attribution. Attribution is among the most difficult and frequently misunderstood aspects of cyber threat intelligence. Unlike conventional military operations, cyber campaigns rarely conclude with an adversary publicly accepting responsibility. Instead, analysts evaluate technical evidence, operational characteristics, strategic context, intelligence reporting, and historical information to determine which explanations are most consistent with the available evidence.
 
 The purpose of attribution is not to achieve absolute certainty. Rather, it is to reduce uncertainty sufficiently to support informed judgment. The CTAR Framework therefore distinguishes between:
 - Established observations
@@ -905,7 +907,7 @@ CTAR evaluates attribution using multiple independent lines of evidence. No sing
 
 Confidence increases when independent sources support the same analytical conclusion.
 
-## Observed Facts
+## Observations
 Several observations concerning Operation Olympic Games are broadly supported by public technical research and historical reporting.
 
 ### Observation 1
@@ -924,7 +926,7 @@ The operational objective emphasized physical degradation rather than financial 
 **Assessment:** Established Fact
 
 ### Observation 4
-Public reporting by investigative journalists, independent researchers, and former government officials has consistently associated Operation Olympic Games with a joint effort involving the United States and Israel. Neither government has publicly confirmed the full operational details.
+Public reporting by investigative journalists, independent researchers, and statements attributed to former government officials has consistently associated Operation Olympic Games with a joint effort involving the United States and Israel. Neither government has publicly confirmed the full operational details.
 
 **Assessment:** Well-Supported Open-Source Reporting
 
@@ -933,8 +935,7 @@ Public reporting by investigative journalists, independent researchers, and form
 ### Target Selection
 Natanz represented one of the most strategically significant elements of Iran's uranium enrichment program. Developing malware capable of targeting this environment required detailed knowledge unavailable through routine reconnaissance.
 
-**Assessment**
-Target selection is strongly consistent with nation-state sponsorship.
+**Assessment:** Target selection is strongly consistent with nation-state sponsorship.
 
 **Confidence:** High
 
@@ -950,8 +951,7 @@ Successful development required expertise spanning:
 
 Such multidisciplinary capabilities exceed those typically associated with financially motivated cybercrime.
 
-**Assessment**
-Technical sophistication strongly supports a nation-state assessment.
+**Assessment:* Technical sophistication strongly supports a nation-state assessment.
 
 **Confidence:** High
 
@@ -966,8 +966,7 @@ Operation Olympic Games required extensive knowledge concerning:
 
 Collecting this information almost certainly required years of coordinated intelligence activity.
 
-**Assessment**
-Required intelligence preparation strongly supports national-level sponsorship.
+**Assessment:** Required intelligence preparation strongly supports national-level sponsorship.
 
 **Confidence:** High
 
@@ -981,8 +980,7 @@ Perhaps the strongest attribution indicator is operational restraint. Observable
 
 These behaviors suggest strategic objectives rather than opportunistic exploitation.
 
-**Assessment**
-Operational behavior is highly consistent with nation-state tradecraft.
+**Assessment:** Operational behavior is highly consistent with nation-state tradecraft.
 
 **Confidence:** High
 
@@ -992,24 +990,21 @@ Responsible intelligence analysis requires evaluating competing explanations bef
 ### Hypothesis A
 A criminal organization independently developed Stuxnet.
 
-**Assessment**
-Highly unlikely.
+**Assessment:** Highly unlikely.
 
 The malware lacked a financial objective and required resources beyond those typically associated with organized cybercrime.
 
 ### Hypothesis B
 An academic or commercial research organization accidentally created the malware.
 
-**Assessment**
-Unsupported.
+**Assessment:** Unsupported.
 
 No credible evidence supports this explanation.
 
 ### Hypothesis C
 A nation-state developed the malware to advance strategic national objectives.
 
-**Assessment**
-Most consistent with available evidence.
+**Assessment:** Most consistent with available evidence.
 
 This hypothesis best explains the target selection, engineering sophistication, intelligence preparation, operational discipline, and observed strategic effects.
 
@@ -1023,7 +1018,7 @@ This hypothesis best explains the target selection, engineering sophistication, 
 | Complete operational details are publicly known | Low |
 
 ## Intelligence Gaps
-Despite extensive public reporting, important questions remain unresolved. These include:
+Despite the convergence of multiple independent lines of evidence, important questions remain unresolved. These include:
 - Precise command relationships.
 - Operational authorization.
 - Full partner participation.
@@ -1036,7 +1031,7 @@ These uncertainties do not invalidate the broader analytical conclusions. Rather
 ## Analytic Judgment
 **Question:** What attribution assessment is most consistent with the available evidence?
 
-**Judgment:** Operation Olympic Games was almost certainly a nation-state cyber campaign designed to delay Iran's uranium enrichment program through covert manipulation of industrial control systems.
+**Judgment:** The available evidence is most consistent with the assessment that Operation Olympic Games was a nation-state cyber campaign designed to delay Iran's uranium enrichment program through covert manipulation of industrial control systems.
 
 **Confidence:** High
 
@@ -1063,7 +1058,7 @@ One of CTAR's central principles is that analysts should explain **why** they re
 - judgment,
 - and uncertainty.
 
-This transparency enables readers to evaluate the reasoning independently.
+This transparency enables readers to evaluate the reasoning independently and understand why attribution in cyber threat intelligence is best expressed as an evidence-based assessment rather than absolute certainty.
 
 ## Questions for Students
 1. Which category of evidence contributes most strongly to your attribution assessment?
@@ -1071,11 +1066,7 @@ This transparency enables readers to evaluate the reasoning independently.
 3. How should analysts communicate confidence when governments neither confirm nor deny responsibility?
 4. What additional evidence would increase confidence in this assessment?
 
-## Transition to Chapter 9
-
-Attribution explains **who most likely conducted the campaign**.
-
-The next chapter evaluates **whether the campaign achieved its intended strategic objectives**, examining Operation Olympic Games through the lenses of technical success, operational effectiveness, and long-term strategic impact.
+Attribution explains **who most likely conducted the campaign and why that assessment is supported by the available evidence**. The next chapter evaluates **whether the campaign achieved its intended strategic objectives**, examining Operation Olympic Games through the lenses of technical success, operational effectiveness, and long-term strategic impact.
 
 # Chapter 9: Campaign Effectiveness Assessment
 **Guiding Question:** Did the campaign achieve its strategic objectives?
