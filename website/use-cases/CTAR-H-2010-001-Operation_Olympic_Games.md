@@ -1072,7 +1072,7 @@ Attribution explains **who most likely conducted the campaign and why that asses
 **Guiding Question:** Did the campaign achieve its strategic objectives?
 
 ## Introduction
-The effectiveness of a cyber operation cannot be measured solely by the sophistication of its malware or the number of systems it compromises. From an intelligence perspective, success is determined by whether the operation advances the strategic objectives established by policymakers. Operation Olympic Games provides an opportunity to distinguish between **technical success**, **operational success**, and **strategic success**. Although these terms are frequently used interchangeably in public discussions, they represent different levels of analysis. This chapter evaluates the campaign from each of these perspectives before assessing its overall effectiveness.
+Having assessed who most likely conducted the campaign and why that attribution is supported by the available evidence, the analysis now turns to an equally important question: Did the operation accomplish what it was intended to achieve? Operation Olympic Games provides an opportunity to distinguish between **technical success**, **operational success**, and **strategic success**. Although these terms are frequently used interchangeably in public discussions, they represent different levels of analysis. This chapter evaluates the campaign from each of these perspectives before assessing its overall effectiveness.
 
 ## Assessment Framework
 CTAR evaluates campaign effectiveness across five dimensions:
@@ -1099,7 +1099,7 @@ Available technical evidence indicates that Stuxnet successfully executed within
 - Reliable execution
 - Long-term persistence
 
-Independent reverse engineering consistently demonstrates that Stuxnet behaved as a carefully engineered cyber-physical weapon rather than conventional malicious software. Measured purely as a software engineering accomplishment, Stuxnet remains one of the most sophisticated malware platforms publicly documented.
+Independent reverse engineering consistently demonstrates that Stuxnet behaved as a carefully engineered cyber-physical weapon rather than conventional malicious software. Measured strictly as an engineering accomplishment, Stuxnet remains one of the most sophisticated malware platforms ever publicly documented.
 
 > **Analytic Judgment**
 >
@@ -1126,7 +1126,7 @@ Available evidence indicates that the operation successfully reached its intende
 - Concealing sabotage.
 - Delaying attribution.
 
-These objectives appear to have been substantially achieved. The campaign demonstrated exceptional operational discipline through precision targeting and extensive environmental validation.
+These objectives appear to have been substantially achieved. The campaign demonstrated exceptional operational discipline through precision targeting and extensive environmental validation. These characteristics suggest that operational success resulted from disciplined planning rather than technical sophistication alone.
 
 ## Strategic Effectiveness
 
@@ -1143,7 +1143,7 @@ Public reporting suggests that Operation Olympic Games delayed aspects of Iran's
 - Avoided immediate kinetic escalation.
 - Demonstrated the feasibility of cyber-enabled sabotage.
 
-However, the campaign did **not** permanently halt Iran's nuclear program. Iran eventually restored enrichment capabilities and continued pursuing its broader strategic objectives. Accordingly, the operation should be viewed as a delaying action rather than a permanent solution.
+However, the campaign did not permanently halt Iran's nuclear program, demonstrating the distinction between delaying an adversary and permanently changing its strategic objectives. Accordingly, the operation should be viewed as a delaying action rather than a permanent solution.
 
 ## Long-Term Consequences
 Perhaps the campaign's greatest impact occurred after its public discovery. Operation Olympic Games fundamentally changed global perceptions of cyber operations. Observable consequences include:
@@ -1175,7 +1175,7 @@ Compared with conventional military action, cyber sabotage may have offered seve
 - Greater strategic flexibility.
 - Lower probability of regional escalation.
 
-These considerations likely influenced policymakers' assessment of operational value.
+These considerations likely influenced policymakers' assessment of operational value. From a CTAR perspective, cost-benefit analysis should evaluate whether an operation advanced strategic objectives relative to the risks and resources invested, rather than focusing solely on technical outcomes.
 
 ## Strategic Risks
 Operation Olympic Games also introduced significant long-term risks. These included:
@@ -1185,7 +1185,7 @@ Operation Olympic Games also introduced significant long-term risks. These inclu
 - Normalization of cyber sabotage.
 - Acceleration of international cyber competition.
 
-Many of these risks ultimately materialized. Operational success therefore produced strategic consequences extending well beyond the original mission.
+Many of these risks ultimately materialized,illustrating that operational success can generate unintended strategic consequences. Operational success therefore produced strategic consequences extending well beyond the original mission.
 
 ## Overall Intelligence Assessment
 | Dimension | Assessment |
@@ -1196,7 +1196,7 @@ Many of these risks ultimately materialized. Operational success therefore produ
 | Long-Term Strategic Impact | High |
 | Permanent Resolution of Iranian Nuclear Program | Low |
 
-This assessment illustrates an important analytical principle. Campaigns may succeed operationally while producing mixed long-term strategic outcomes. Recognizing this distinction is essential to disciplined cyber threat analysis.
+This assessment illustrates one of CTAR's central analytical principles: campaigns should be evaluated across multiple levels of analysis because technical, operational, and strategic outcomes often differ. Campaigns may succeed operationally while producing mixed long-term strategic outcomes. Recognizing this distinction is essential to disciplined cyber threat analysis.
 
 ## Analytic Judgment
 **Question:** Did Operation Olympic Games achieve its objectives?
@@ -1216,7 +1216,7 @@ Several enduring lessons emerge:
 - Technical success does not necessarily guarantee strategic success.
 
 ## Analyst's Notebook
-This chapter intentionally separates technical, operational, and strategic effectiveness because each answers a different question. Software engineers may focus on whether the malware functioned correctly. Operators may evaluate whether the campaign executed as planned. Policymakers evaluate whether national objectives were advanced. Cyber threat analysts must understand all three perspectives.
+This chapter intentionally separates technical, operational, and strategic effectiveness because each answers a different question. Software engineers may focus on whether the malware functioned correctly. Operators may evaluate whether the campaign executed as planned. Policymakers evaluate whether national objectives were advanced. Cyber threat analysts must understand all three perspectives. Effective intelligence analysis therefore requires evaluating not only whether an operation worked, but whether it ultimately achieved the strategic purpose for which it was undertaken.
 
 ## Questions for Students
 1. Should Operation Olympic Games be considered a strategic success if Iran ultimately continued enriching uranium?
@@ -1224,8 +1224,7 @@ This chapter intentionally separates technical, operational, and strategic effec
 3. How should policymakers evaluate long-term strategic consequences that were not immediately apparent during the operation?
 4. Can a covert cyber operation remain strategically successful after becoming public?
 
-## Transition to Chapter 10
-Campaign effectiveness explains **what the operation accomplished**. The next chapter translates those observations into practical guidance for modern defenders, identifying the enduring lessons that Operation Olympic Games offers today's cybersecurity professionals.
+Campaign effectiveness explains what the operation accomplished and how those outcomes should inform future defensive practice. The next chapter translates those observations into practical guidance for modern defenders, identifying the enduring lessons that Operation Olympic Games offers today's cybersecurity professionals.
 
 # Chapter 10: Defensive Lessons for Modern Cybersecurity
 **Guiding Question:** What should modern defenders learn from this campaign?
