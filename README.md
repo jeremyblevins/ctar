@@ -128,9 +128,7 @@ CTAR Framework
 ---
 
 # Analytical Workflow
-
 A CTAR is developed through the following lifecycle:
-
 1. Define the analytical problem.
 2. Collect evidence.
 3. Evaluate sources.
@@ -145,7 +143,6 @@ A CTAR is developed through the following lifecycle:
 ---
 
 # Guiding Principles
-
 The CTAR Framework is founded upon six principles:
 -Evidence-Based Analysis
 -Analytical Transparency
@@ -155,9 +152,7 @@ The CTAR Framework is founded upon six principles:
 -Human Accountability
 
 # Report Profiles
-
 CTAR currently supports multiple report profiles.
-
 - Operational CTAR
 - Historical CTAR
 - Vulnerability CTAR
@@ -167,7 +162,6 @@ CTAR currently supports multiple report profiles.
 - Product Risk CTAR
 
 Future report profiles may be added through the governance process.
-
 ---
 
 # Versioning
@@ -178,21 +172,17 @@ The framework follows Semantic Versioning.
 - Minor versions introduce new capabilities while preserving compatibility.
 - Patch versions provide corrections and clarifications.
 
----
+# Community Feedback
+The CTAR Framework is an open project developed through public discussion, practical application, and continuous refinement. At this stage of the project, I am seeking feedback rather than direct modifications to the framework or repository. If you identify:
+- Technical inaccuracies
+- Methodological improvements
+- Editorial issues
+- Opportunities to improve clarity
+- Additional educational or practical use cases
 
-# Contributing
+Please open a GitHub Issue or contact me through the project website. Constructive feedback from analysts, educators, researchers, and cybersecurity practitioners is encouraged and will help shape future releases of the CTAR Framework.
 
-Contributions are welcome.
-
-Contributors should:
-
-- Follow the Governance Charter.
-- Follow the Methodology Standard.
-- Maintain analytical objectivity.
-- Document significant changes.
-- Participate in peer review where appropriate.
-
----
+While the framework is openly licensed, direct code and documentation contributions are not currently being accepted. This allows the project to maintain a consistent vision and methodology while it continues to mature.
 
 # Future Roadmap
 ## Completed
