@@ -34,7 +34,41 @@ The framework is intended for:
 - Government organizations
 - Private industry
 
----
+## Why CTAR?
+
+Cyber threat reports often describe *what* happened but rarely explain *how* analysts reached their conclusions. CTAR was developed to make cyber threat intelligence:
+- Transparent
+- Reproducible
+- Educational
+- Vendor-neutral
+- Evidence-based
+
+Rather than replacing existing intelligence products, CTAR provides a structured methodology for documenting evidence, developing analytical judgments, assigning confidence, and communicating findings in a consistent and understandable format.
+
+## Getting Started
+
+If you're new to CTAR, begin with:
+1. Read the **Methodology Standard (CTAR-MS)**.
+2. Review the **Report Template (CTAR-RT)**.
+3. Explore the inaugural historical case study:
+   - **CTAR-H-2010-001: Operation Olympic Games**
+4. Visit the project website for documentation and updates:
+   - https://ctarframework.org/
+  
+## Featured Publication
+The inaugural CTAR Historical Case Study demonstrates the framework applied to a complete cyber threat assessment.
+**CTAR-H-2010-001: Operation Olympic Games**
+
+This publication analyzes the Stuxnet campaign using the complete CTAR methodology, including:
+- Historical context
+- Technical assessment
+- Behavioral assessment
+- Intelligence assessment
+- Attribution analysis
+- Campaign effectiveness
+- Defensive lessons learned
+
+The report is intended as both a historical case study and an educational example of evidence-based cyber threat analysis.
 
 # Framework Architecture
 
@@ -104,15 +138,12 @@ A CTAR is developed through the following lifecycle:
 # Guiding Principles
 
 The CTAR Framework is founded upon six principles:
-
-- Objectivity
-- Transparency
-- Evidence-based analysis
-- Analytical independence
-- Reproducibility
-- Ethical responsibility
-
----
+-Evidence-Based Analysis
+-Analytical Transparency
+-Reproducibility
+-Educational Value
+-Ethical Responsibility
+-Human Accountability
 
 # Report Profiles
 
@@ -155,31 +186,39 @@ Contributors should:
 ---
 
 # Future Roadmap
+## Completed
+- Governance Charter
+- Methodology Standard
+- Publication Standards
+- AI Participation Policy
+- Data Authenticity Policy
+- Publication Safety Review
+- Historical Case Study Series
 
-Planned enhancements include:
-
-- Analytical Tradecraft Manual (CTAR-ATM)
-- CTAR Lexicon (CTAR-LX)
-- Domain-specific practice guides
+## Roadmap
+- Analytical Tradecraft Manual
+- CTAR Lexicon
+- HTML publication standard
 - Machine-readable schemas
-- Conformance testing
-- Reference implementations
-- Community governance
+- Community peer review
+- Additional historical case studies
 
 ---
 
 # License
-
-Specify the repository license.
+Unless otherwise noted, the CTAR Framework documentation is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See the LICENSE file for complete terms.
 
 ---
 
 # Citation
-
 When citing the CTAR Framework, reference the applicable framework version and publication date to support reproducibility.
 
 ---
 
 # Acknowledgments
-
 The CTAR Framework builds upon decades of work in cybersecurity, intelligence analysis, digital forensics, and risk management while remaining an independent, open methodology for cyber threat assessment.
+
+## Vision
+The CTAR Framework seeks to make cyber threat intelligence more transparent, understandable, and reproducible through open standards, structured analytical methodology, and community collaboration. By emphasizing how analysts develop evidence-based judgments—not simply what conclusions they reach—CTAR aims to strengthen cybersecurity education and improve the quality of cyber threat reporting.
+
+**Making Cyber Threat Intelligence Understandable.**
