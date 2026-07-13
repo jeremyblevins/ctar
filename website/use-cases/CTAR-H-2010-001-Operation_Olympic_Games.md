@@ -9,6 +9,7 @@
 **Subject:** Operation Olympic Games
 
 > **Derived from Open Sources**
+> 
 | Metadata | Value |
 |--|-|
 | **Report ID** | CTAR-H-2010-001 |
