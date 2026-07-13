@@ -1230,12 +1230,12 @@ Campaign effectiveness explains what the operation accomplished and how those ou
 **Guiding Question:** What should modern defenders learn from this campaign?
 
 ## Introduction
-Historical cyber campaigns are valuable only if they improve future decision-making. While the technologies employed during Operation Olympic Games have evolved, the underlying principles that enabled the campaign remain relevant. Modern defenders continue to confront adversaries who combine intelligence collection, engineering expertise, patience, and operational discipline to achieve strategic objectives.
+Historical cyber campaigns are valuable only if they improve future decision-making. The preceding chapters examined why Operation Olympic Games occurred, how it was planned, how it was executed, and what it ultimately achieved. This chapter asks the practical question that follows every historical assessment: What should modern defenders do differently? While the technologies employed during Operation Olympic Games have evolved, the underlying principles that enabled the campaign remain relevant. Modern defenders continue to confront adversaries who combine intelligence collection, engineering expertise, patience, and operational discipline to achieve strategic objectives.
 
 This chapter translates the historical observations developed throughout this case study into practical lessons for cybersecurity professionals, organizational leaders, educators, and students. The objective is not to defend against Stuxnet specifically. It is to defend against the *next* Operation Olympic Games.
 
 ## Lesson One: Cyber Operations Begin Long Before Exploitation
-One of the most persistent misconceptions in cybersecurity is that attacks begin when malicious code is detected. Operation Olympic Games demonstrates otherwise. Years of intelligence collection, reconnaissance, engineering research, and operational planning preceded deployment. By the time malicious code reached the target environment, much of the campaign's success had already been determined. Organizations should therefore devote as much attention to detecting reconnaissance and preparatory activities as they do to detecting malware.
+One of the most persistent misconceptions in cybersecurity is that attacks begin when malicious code is detected. Operation Olympic Games demonstrates otherwise. Years of intelligence collection, reconnaissance, engineering research, and operational planning preceded deployment. By the time malicious code reached the target environment, much of the campaign's success had already been determined. Organizations should therefore devote as much attention to detecting reconnaissance and preparatory activities as they do to detecting malware. CTAR therefore encourages organizations to identify opportunities for detection throughout the adversary's campaign lifecycle rather than concentrating defensive resources solely on malware execution.
 
 > **Analytic Judgment**
 >
@@ -1252,7 +1252,7 @@ One of the most persistent misconceptions in cybersecurity is that attacks begin
 ## Lesson Two: Air Gaps Reduce Risk, They Do Not Eliminate It
 Operational technology environments have traditionally relied upon physical isolation as a primary security control. Operation Olympic Games demonstrated the limitations of this assumption. The campaign did not defeat the air gap through remote exploitation. Instead, it exploited trusted operational processes associated with removable media, engineering workstations, and maintenance activities.
 
-Modern organizations should therefore treat these workflows as part of the attack surface. Air gaps remain valuable. They are simply not sufficient by themselves.
+Modern organizations should therefore treat these workflows as part of the attack surface. Air gaps remain valuable. They are simply not sufficient by themselves. Effective protection of isolated environments also depends upon disciplined control of people, processes, removable media, and engineering workflows.
 
 ## Lesson Three: Trust Relationships Are Strategic Assets
 Cybersecurity discussions often focus on software vulnerabilities while overlooking organizational trust. Stuxnet succeeded because it leveraged trusted relationships. Examples include:
@@ -1271,7 +1271,7 @@ Traditional cybersecurity programs frequently prioritize servers, domain control
 - Industrial processes.
 - Safety systems.
 
-Organizations should therefore implement enhanced monitoring, application control, multifactor authentication, and disciplined change management within engineering environments. Protecting PLCs begins by protecting the systems that program them.
+Organizations should therefore implement enhanced monitoring, application control, multifactor authentication, and disciplined change management within engineering environments. Protecting PLCs begins by protecting the systems that program them. Engineering workstations frequently represent the bridge between enterprise information technology and operational technology, making them one of the highest-value assets within industrial environments.
 
 ## Lesson Five: Cybersecurity Is an Interdisciplinary Profession
 No single discipline could have executed Operation Olympic Games. Likewise, no single discipline can effectively defend against similar campaigns. Successful defense requires collaboration among:
@@ -1296,6 +1296,7 @@ Malware changes rapidly. Adversary behavior changes much more slowly. Rather tha
 - Anomalous removable media usage.
 - Unexpected modifications to industrial logic.
 - Deviations from established maintenance procedures.
+- Unexpected changes to engineering project files.
 
 Behavior-based detection remains effective even when malware has never been seen before.
 
@@ -1306,7 +1307,7 @@ Many organizations view threat intelligence as a reporting function. Operation O
 - What assumptions underpin our current security model?
 - How would an adversary prepare before attacking us?
 
-Organizations capable of answering these questions proactively reduce strategic surprise.
+Organizations capable of answering these questions proactively are better positioned to disrupt adversary planning before exploitation begins.
 
 > **Analytic Judgment**
 >
@@ -1331,6 +1332,7 @@ Operation Olympic Games provides an exceptional teaching opportunity because it 
 - Risk management.
 - Cyber policy.
 - Ethics.
+- Structured analytical reasoning.
 
 Few historical incidents provide such a comprehensive educational foundation. Consequently, this case study is well suited for advanced undergraduate, graduate, and professional cybersecurity education.
 
@@ -1340,21 +1342,18 @@ Because the purpose of CTAR is not merely to preserve historical knowledge. It i
 
 **"What should we do differently because we now understand this campaign?"**
 
+If readers cannot identify specific improvements to their defensive posture after completing a CTAR assessment, the analysis has not fully achieved its educational purpose.
+
 ## Questions for Students
 1. Which defensive recommendation would have been most practical to implement before Operation Olympic Games occurred?
 2. Which recommendation remains most relevant to today's operational technology environments?
 3. How should organizations balance operational efficiency with cybersecurity when protecting critical infrastructure?
 4. What assumptions within your own organization might a sophisticated adversary exploit?
 
-## Transition to Chapter 11
-The technical and strategic lessons of Operation Olympic Games are only part of its legacy. The final chapter synthesizes the entire assessment, reflects upon the campaign's enduring influence, and demonstrates how the CTAR methodology transforms historical events into structured, evidence-based cyber threat analysis.
+The technical and strategic lessons of Operation Olympic Games are only part of its legacy. The final chapter synthesizes the historical evidence, analytical judgments, and defensive lessons presented throughout this case study before reflecting on Operation Olympic Games' enduring influence on modern cyber threat intelligence.
 
 # Chapter 11: Conclusion
 **Guiding Question:** Why does Operation Olympic Games continue to matter today?
-
-> **Editorial Note**
->
-> This recovered chapter has been lightly harmonized for publication consistency.
 
 ## Introduction
 Operation Olympic Games occupies a unique place in the history of cybersecurity. It was not the first malicious software, the first nation-state cyber operation, or even the first attack directed at critical infrastructure. Its significance lies elsewhere. Operation Olympic Games demonstrated that cyber operations had matured into an instrument of national power capable of producing measurable physical effects while remaining integrated with diplomacy, intelligence collection, and broader strategic objectives.
@@ -1382,6 +1381,7 @@ Operation Olympic Games repeatedly exploited trusted relationships. Examples inc
 - Operational procedures.
 - Human workflows.
 - Supply chains.
+- Software update mechanisms.
 
 Modern cybersecurity increasingly recognizes that trust must be continuously validated rather than permanently assumed.
 
