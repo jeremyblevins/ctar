@@ -4,7 +4,7 @@
 **Report Version:** 1.0.0  
 **Framework Version:** CTAR Framework v2.1.0  
 **Classification:** Public Release  
-**Publication Date:** 10 July 2026  
+**Publication Date:** 13 July 2026  
 **Threat Category:** Historical Cyber Threat Assessment  
 **Subject:** Operation Olympic Games
 
@@ -1528,7 +1528,7 @@ The analysis presented in this report is derived exclusively from publicly avail
 - The Washington Post. Cybersecurity reporting. https://www.washingtonpost.com/
 
 # License
-Copyright © 2026 CTAR Project.
+Copyright © 2026 Jeremy B. Blevins. The CTAR Project.
 This work is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. You are free to:
 - Share — copy and redistribute the material in any medium or format.
 - Adapt — remix, transform, and build upon the material for any purpose, including commercial use.
