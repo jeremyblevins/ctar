@@ -6,7 +6,16 @@
 
 The Cyber Threat Assessment and Reporting (CTAR) Framework is an open, educational framework for producing transparent, evidence-based cyber threat intelligence. CTAR emphasizes analytical reasoning, source transparency, and reproducible methodology to help analysts, educators, students, and practitioners communicate cyber threat assessments with greater clarity and consistency.
 
-**Version:** 2.0.1
+## Project Status
+**Current Framework Version:** 2.1.0
+**Current Status:** Active Development
+### Current Milestones
+- ✅ Framework Core Complete
+- ✅ Governance Established
+- ✅ Publication Standards Complete
+- ✅ First Historical Case Study Published
+- 🔄 Community Review and Feedback
+- 🚧 Additional Historical Case Studies in Development
 
 ---
 
