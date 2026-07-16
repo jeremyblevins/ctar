@@ -1,183 +1,184 @@
 # CTAR Artificial Intelligence Participation Policy (CTAR-AIPP)
 
-**Document ID:** CTAR-AIPP  
-**Version:** 1.0.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The CTAR Artificial Intelligence Participation Policy establishes standards for the responsible use of Artificial Intelligence (AI) in the development of Cyber Threat Assessment Reports (CTARs).
+This policy establishes the acceptable use of artificial intelligence (AI) in the production of Cyber Threat Assessment Reports (CTARs).
 
-The policy recognizes AI as a valuable analytical assistant while affirming that responsibility for every published assessment remains with the human analyst.
+Its purpose is to promote transparency, reproducibility, and accountability while recognizing AI as a valuable analytical assistant rather than an autonomous analyst.
 
----
-
-# 2. Scope
-
-This policy applies to all AI-assisted activities performed during the CTAR analytical lifecycle.
-
-Examples include:
-
-- Research assistance
-- Draft generation
-- Summarization
-- Editing
-- Organization
-- Formatting
-- Translation
+This policy applies to all official CTAR publications.
 
 ---
 
-# 3. Guiding Principles
+# 2. Guiding Principles
 
-The CTAR Framework adopts the following principles regarding AI participation.
+Artificial intelligence SHALL:
 
-## Human Accountability
+- Enhance analytical efficiency.
+- Improve document quality.
+- Assist information synthesis.
+- Increase consistency.
 
-Human analysts are solely responsible for the accuracy, completeness, and integrity of published assessments.
+Artificial intelligence SHALL NOT:
 
----
+- Replace analyst judgment.
+- Make final analytical conclusions.
+- Assign confidence levels independently.
+- Approve reports for publication.
 
-## AI is an Assistant
-
-AI assists analysis.
-
-AI does not replace analysis.
-
----
-
-## Evidence First
-
-AI-generated content is not evidence.
-
-Every factual statement shall be independently verified using authentic sources.
+Human analysts remain accountable for every published CTAR.
 
 ---
 
-## Transparency
+# 3. Human Responsibility
 
-Material AI participation should be documented within the assessment process.
+The responsible analyst SHALL retain authority over:
 
----
+- Scope definition
+- Evidence selection
+- Source evaluation
+- Authenticity assessment
+- Technical validation
+- Analytical conclusions
+- Confidence assessments
+- Final publication approval
 
-## Critical Thinking
-
-Analysts shall challenge AI-generated conclusions rather than accept them without verification.
+Responsibility SHALL NOT be delegated to AI systems.
 
 ---
 
 # 4. Permitted Uses
 
-AI may be used to assist with:
+AI MAY be used for:
 
-- Brainstorming
-- Outlining reports
-- Draft generation
-- Grammar and style improvements
-- Summarizing lengthy documents
-- Organizing evidence
-- Identifying potential research leads
-- Generating analyst questions
+- Grammar and style improvement
+- Executive summary drafting
+- Report formatting
+- Information organization
+- Timeline construction
+- Table generation
+- Pattern identification
+- Summarization of referenced material
+- Translation assistance
+- Identification of potential relationships requiring analyst review
 
----
-
-# 5. Prohibited Uses
-
-AI shall not be used to:
-
-- Fabricate evidence
-- Invent citations
-- Create false attribution
-- Generate fictional Indicators of Compromise
-- Misrepresent uncertainty
-- Replace human analytical judgment
+Analysts SHALL independently verify AI-generated content before publication.
 
 ---
 
-# 6. Human Verification
+# 5. Restricted Uses
 
-Before publication, analysts shall verify:
+AI SHOULD NOT be used as the sole basis for:
 
-- Every factual statement
-- Every citation
-- Every IOC
-- Every ATT&CK mapping
-- Every CVE reference
-- Every attribution statement
-- Every confidence assessment
+- Threat attribution
+- Confidence assignment
+- Malware classification
+- Root cause determination
+- Legal conclusions
+- Intelligence estimates
+- Risk acceptance decisions
 
-Verification shall be performed using authoritative sources rather than AI responses.
-
----
-
-# 7. Analyst Responsibilities
-
-Analysts remain responsible for:
-
-- Evidence collection
-- Evidence validation
-- Source evaluation
-- Confidence assessment
-- Ethical judgment
-- Final publication approval
-
-These responsibilities may not be delegated to AI.
+AI-generated recommendations SHALL undergo human review.
 
 ---
 
-# 8. AI Disclosure
+# 6. Prohibited Uses
 
-Organizations may choose to disclose material AI participation within published CTARs.
+AI SHALL NOT:
 
-Examples include:
+- Fabricate citations.
+- Invent evidence.
+- Alter supporting data.
+- Conceal uncertainty.
+- Generate fictitious technical observations.
+- Misrepresent analyst findings.
+- Present AI-generated assumptions as verified facts.
 
-- Research assistance
-- Draft preparation
-- Editorial support
-
-Routine proofreading need not be disclosed.
-
----
-
-# 9. Verification Philosophy
-
-CTAR encourages analysts to question AI output.
-
-Examples include:
-
-- "What primary source supports this statement?"
-- "Is this fact or interpretation?"
-- "What evidence contradicts this conclusion?"
-- "Can this IOC be independently verified?"
-- "What assumptions were made?"
-- "How confident should this assessment be?"
-
-The objective is to cultivate analytical reasoning rather than passive acceptance of AI-generated content.
+Intentional misuse constitutes a violation of CTAR standards.
 
 ---
 
-# 10. Educational Use
+# 7. Transparency
 
-Within educational environments, instructors may require students to:
+Official CTAR publications SHALL disclose material AI participation.
 
-- Verify AI-generated claims.
-- Locate original reporting artifacts.
-- Corroborate technical information.
-- Identify unsupported statements.
-- Document evidence supporting conclusions.
+Disclosure SHOULD summarize:
 
-The educational objective is to develop critical thinking and evidence-based analytical skills.
+- General AI functions performed
+- Degree of human review
+- Any significant limitations affecting the work product
+
+Disclosure need not identify specific prompts or proprietary implementation details unless reproducibility requires it.
 
 ---
 
-# 11. Relationship to Other CTAR Documents
+# 8. Verification
 
-This policy complements:
+Human analysts SHALL verify:
 
-- CTAR-MS (Methodology Specification)
-- CTAR-DAP (Data Authenticity Policy)
-- CTAR-SRM (Source Reliability Matrix)
-- CTAR-CE (Code of Ethics & Analytical Conduct)
+- Technical accuracy
+- Source citations
+- Quotations
+- Indicators of Compromise
+- Vulnerability identifiers
+- Confidence statements
+- Recommendations
+
+Verification SHALL occur before publication.
+
+---
+
+# 9. Confidentiality
+
+AI systems SHALL only receive information consistent with applicable legal, contractual, organizational, and ethical requirements.
+
+Analysts SHALL consider:
+
+- Export controls
+- Classification markings
+- Customer confidentiality
+- Privacy obligations
+- Licensing restrictions
+
+Sensitive information SHALL NOT be disclosed to external AI services without appropriate authorization.
+
+---
+
+# 10. Reproducibility
+
+When AI materially influences analysis, analysts SHOULD retain sufficient documentation to explain:
+
+- The purpose of AI assistance
+- Human review performed
+- Significant revisions made by the analyst
+
+Exact prompts are not required unless necessary to reproduce methodological results.
+
+---
+
+# 11. Continuous Improvement
+
+Because AI capabilities evolve rapidly, this policy SHOULD be reviewed periodically.
+
+Future revisions MAY address:
+
+- Agentic AI
+- Automated evidence collection
+- Retrieval-Augmented Generation (RAG)
+- Local language models
+- Explainable AI
+- AI assurance methodologies
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original AI Participation Policy |
+| 2.0.0 | 2026-07-06 | Comprehensive revision emphasizing analyst accountability, transparency, verification, confidentiality, and reproducibility while recognizing AI as an analytical assistant. |

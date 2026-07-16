@@ -1,187 +1,269 @@
-# CTAR Report Template (CTAR-RT)
+# CTAR Report Template Standard (CTAR-RT)
 
-**Document ID:** CTAR-RT  
-**Version:** 1.2.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
-## Normative Language
+# 1. Purpose
 
-The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+This standard defines the required structure and presentation of official Cyber Threat Assessment Reports (CTARs). Its purpose is to ensure consistency, readability, and analytical transparency across all CTAR publications.
 
----
-
-# Cyber Threat Assessment Report (CTAR)
-
-**CTAR ID:** CTAR-YYYY-NNNN  
-**Report Version:** 1.2.0  
-**Framework Version:** 1.2.0  
-**Classification:** Public Release  
-**Publication Date:** YYYY-MM-DD  
-**Assessment Type:**  
-**Subject:**  
-**Author(s):**  
-**Reviewer(s):**  
-**Status:** Draft | Review | Final
+This document specifies *how findings are communicated*. Analytical methods are defined in CTAR-MS.
 
 ---
 
-# Executive Summary
+# 2. Report Header
 
-Summarize the incident and principal findings. Significant factual statements **MUST** reference Evidence IDs.
+Every CTAR SHALL begin with the following metadata.
 
-# Assessment Scope
+| Field | Required |
+|---------|----------|
+| CTAR Identifier | Yes |
+| Report Title | Yes |
+| Report Profile | Yes |
+| Publication Date | Yes |
+| Framework Version | Yes |
+| Analyst | Optional |
+| Organization | Optional |
+| Revision | Yes |
 
-- Subject
-- Objectives
-- Scope limitations
-- Intended audience
-- Intelligence questions
+Example:
 
-# Historical Context
+```
+CTAR-2026-0706-001
 
-Provide operational or historical background.
+Gitea Docker Remote Code Execution Campaign
 
-# Threat Overview
+Operational CTAR
 
-| Attribute | Value |
-|---|---|
-| Threat Type | |
-| Initial Disclosure | |
-| Threat Vector | |
-| Target | |
-| Industry | |
-| Malware Involved | |
+Published:
+6 July 2026
 
-# Technical Assessment
+Framework Version:
+2.0
 
-Describe technical characteristics and reference supporting evidence.
+Revision:
+1.0
+```
 
-# Attack Lifecycle
+---
 
-Delete rows that do not apply.
+# 3. Executive Summary (Required)
 
-| Phase | Activity |
-|---|---|
-| Initial Access | |
-| Execution | |
-| Persistence | |
-| Privilege Escalation | |
-| Defense Evasion | |
-| Discovery | |
-| Collection | |
-| Exfiltration | |
-| Impact | |
+The Executive Summary SHALL provide a concise overview suitable for decision-makers.
 
-# Timeline
+It SHOULD include:
 
-| Date | Event |
-|---|---|
+- What happened
+- Why it matters
+- Who is affected
+- Overall risk
+- Recommended actions
 
-# Indicators of Compromise (IOCs)
+Length SHOULD generally not exceed one page.
 
-Clearly distinguish Observed, Historical, and Inferred indicators.
+---
 
-# MITRE ATT&CK Mapping
+# 4. Key Judgments (Required)
 
-| Technique | Description |
-|---|---|
+Key Judgments summarize the principal analytical conclusions.
 
-# Associated Vulnerabilities
+Each judgment SHOULD include an associated confidence level.
 
-List applicable CVEs/CWEs or explicitly state **Associated CVEs: None**.
+Example:
 
-# Operational Impact
+• Threat actors are opportunistically scanning public Gitea instances.
 
-Describe operational, financial, and organizational impacts.
+Confidence: High
 
-# Attribution Assessment
+---
 
-Document attribution, alternatives, and confidence.
+# 5. Situation Overview (Required)
 
-# Assessment Limitations
+Provides context for the assessment.
 
-Document limitations such as:
-- Public reporting constraints
-- Missing artifacts
-- Classification restrictions
-- Conflicting sources
+May include:
 
-# Defensive Measures
+- Timeline
+- Background
+- Current activity
+- Geographic scope
+- Organizational impact
 
-Recommended mitigations and recovery actions.
+---
 
-# Confidence Assessment
+# 6. Technical Analysis (Required)
 
-| Assessment | Confidence |
-|---|---|
-| Timeline | |
-| Technical Analysis | |
-| Attribution | |
-| Operational Impact | |
+This section presents the evidence supporting the assessment.
 
-# Source Reliability Assessment
+May include:
 
-| Source | Reliability |
-|---|---|
+- Vulnerability analysis
+- Malware behavior
+- Network observations
+- Indicators of Compromise
+- MITRE ATT&CK mapping
+- Exploit chain
+- Technical diagrams
 
-# Data Authenticity Review
+Evidence SHALL be clearly separated from analytical interpretation.
 
-## Verified
+---
 
-## Corroborated
+# 7. Threat Assessment (Required)
 
-## Reported
+Describes:
 
-## Assumptions
+- Threat actor capability
+- Intent
+- Opportunity
+- Likelihood
+- Operational impact
 
-## Analytical Limitations
+This section synthesizes evidence into analytical conclusions.
 
-# Ethical Considerations
+---
 
-# Lessons Learned
+# 8. Risk Assessment (Required)
 
-# Analyst Verification Checklist
+Risk SHOULD consider:
 
-- [ ] Every factual claim supported by evidence.
-- [ ] Every Evidence ID exists.
-- [ ] Every hyperlink validated.
-- [ ] IOCs verified.
-- [ ] ATT&CK mappings reviewed.
-- [ ] CVEs researched.
-- [ ] Confidence justified.
-- [ ] Publication Safety Review completed.
+- Likelihood
+- Impact
+- Exposure
+- Detection capability
+- Mitigation status
 
-# Appendix A – Evidence Register
+Frameworks such as NIST RMF, FAIR, or CVSS MAY be referenced where appropriate.
 
-| ID | Evidence | Type | Publication Date | Source Organization | Reliability | Authenticity | Used In | Hyperlink |
-|---|---|---|---|---|---|---|---|---|
-| E-001 | | | | | | | | |
+---
 
-# Appendix B – Evidence Traceability Matrix (ETM)
+# 9. Confidence Assessment (Required)
 
-| Finding | Supporting Evidence |
-|---|---|
-| | |
+Confidence SHALL be assigned to significant analytical judgments.
 
-# Appendix C – Supporting Artifacts
+Recommended values:
 
-Optional:
-- Timelines
-- IOC tables
-- Network diagrams
-- Screenshots
-- Hash listings
-- Reporting artifacts
+- High
+- Moderate
+- Low
 
-# References
+The rationale for confidence SHOULD be briefly explained.
 
-1.
-2.
-3.
+---
 
-# Overall Assessment
+# 10. Intelligence Gaps (Required)
 
-Provide the final analytical conclusion supported by the evidence presented above.
+This section identifies information unavailable at publication.
+
+Examples include:
+
+- Unknown attribution
+- Missing forensic artifacts
+- Incomplete victim reporting
+- Pending vulnerability analysis
+
+Explicitly identifying gaps improves analytical transparency.
+
+---
+
+# 11. Recommended Actions (Required)
+
+Recommendations SHOULD distinguish between:
+
+Immediate Actions
+
+Near-Term Actions
+
+Strategic Improvements
+
+Recommendations SHOULD be actionable and technically feasible.
+
+---
+
+# 12. Sources (Required)
+
+Sources SHALL be cited using the Source Reliability Matrix.
+
+References SHOULD distinguish between:
+
+Primary Sources
+
+Secondary Sources
+
+Supporting References
+
+---
+
+# 13. AI Participation Statement (Required)
+
+Every official CTAR SHALL disclose the role of artificial intelligence.
+
+Example:
+
+> Portions of this report were assisted by artificial intelligence for drafting, summarization, and editorial refinement. Evidence validation, analytical conclusions, confidence assessments, and final publication approval were performed by a human analyst.
+
+---
+
+# 14. Optional Sections
+
+The following sections MAY be included when applicable.
+
+## MITRE ATT&CK Mapping
+
+## Indicators of Compromise
+
+## Detection Guidance
+
+## Threat Hunting Queries
+
+## YARA Rules
+
+## Sigma Rules
+
+## Timeline
+
+## Campaign Chronology
+
+## Historical Context
+
+## Lessons Learned
+
+## Appendices
+
+---
+
+# 15. Historical CTAR Requirements
+
+Historical CTARs SHOULD additionally include:
+
+- Historical Background
+- Chronological Reconstruction
+- Source Criticism
+- Strategic Significance
+- Enduring Lessons
+
+Where uncertainty exists, reconstructed events SHALL be distinguished from documented historical facts.
+
+---
+
+# 16. Formatting Requirements
+
+Official CTAR reports SHOULD:
+
+- Use consistent heading hierarchy.
+- Clearly label confidence levels.
+- Separate evidence from assessment.
+- Avoid unnecessary jargon.
+- Use tables where appropriate.
+- Clearly identify assumptions.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original report template |
+| 2.0.0 | 2026-07-06 | Complete redesign aligning report presentation with CTAR Governance and Methodology standards. Introduced required vs. optional sections, standardized confidence reporting, intelligence gaps, AI participation statements, and profile-specific guidance. |

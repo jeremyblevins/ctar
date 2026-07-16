@@ -1,240 +1,272 @@
 # CTAR Source Reliability Matrix (CTAR-SRM)
 
-**Document ID:** CTAR-SRM  
-**Version:** 1.1.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
-
----
-
-## Normative Language
-
-The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The CTAR Source Reliability Matrix establishes a standardized method for evaluating the reliability of information sources used in Cyber Threat Assessment Reports (CTARs).
+The CTAR Source Reliability Matrix establishes a standardized methodology for evaluating the reliability, credibility, and analytical value of information used in Cyber Threat Assessment Reports (CTARs).
 
-The purpose of this document is to promote consistent evidence evaluation, improve analytical transparency, and support defensible intelligence assessments.
+The objective is to improve transparency, reduce analytical bias, and support reproducible threat assessments.
 
-Source reliability should never be confused with analytical confidence. Reliable sources may still report incomplete information, and low-reliability sources may occasionally provide accurate information.
+This standard applies to all evidence used in official CTAR publications.
 
 ---
 
-# 2. Principles
+# 2. Relationship to Other Framework Documents
 
-Source evaluation should consider:
+This standard supports:
 
-- Authority
-- Authenticity
-- Independence
-- Timeliness
+- CTAR-MS by defining source evaluation procedures.
+- CTAR-DAP by complementing evidence authenticity assessment.
+- CTAR-RT by providing the basis for source summaries included in published reports.
+
+---
+
+# 3. Principles
+
+Source evaluation SHALL assess:
+
+- Reliability
+- Credibility
+- Relevance
 - Corroboration
-- Transparency
 
-No single source should be considered authoritative solely because of its reputation.
+These characteristics are independent.
+
+A technically accurate source may contain incomplete information.
+
+A highly credible organization may publish preliminary assessments that require later revision.
 
 ---
 
-# 3. Reliability Categories
+# 4. Source Categories
 
-## High Reliability
+Common CTAR source categories include:
 
-Characteristics include:
+- Government advisories
+- Vendor security bulletins
+- Academic research
+- Incident response reports
+- Malware analyses
+- Vulnerability databases
+- Digital forensic evidence
+- Threat intelligence feeds
+- Historical archives
+- Open-source intelligence (OSINT)
+- Media reporting
+- Social media
 
-- Primary source
-- Official documentation
-- Direct observation
-- Original technical analysis
-- Transparent methodology
-- Consistently accurate historical reporting
+No category is inherently reliable or unreliable.
+
+Each source SHALL be evaluated independently.
+
+---
+
+# 5. Evaluation Criteria
+
+Analysts SHOULD evaluate each source across the following dimensions.
+
+## Authenticity
+
+Can the origin of the information be reasonably verified?
 
 Examples:
 
+- Original publication
+- Digitally signed document
+- Official advisory
+- Verified repository
+
+---
+
+## Technical Competence
+
+Does the author demonstrate appropriate expertise?
+
+Consider:
+
+- Demonstrated methodology
+- Technical detail
+- Supporting evidence
+- Peer recognition
+
+---
+
+## Independence
+
+Was the information developed independently?
+
+Independent reporting generally provides stronger analytical value than repeated citation of the same original source.
+
+---
+
+## Corroboration
+
+Has the information been confirmed by independent evidence?
+
+Multiple independent confirmations increase confidence.
+
+Repeated publication of identical information does not constitute corroboration.
+
+---
+
+## Timeliness
+
+Is the information current for the assessment?
+
+Threat intelligence often changes rapidly.
+
+Historical reports remain valuable when used appropriately.
+
+---
+
+## Transparency
+
+Does the source explain:
+
+- Methodology
+- Data sources
+- Analytical assumptions
+- Limitations
+
+Transparent reporting generally deserves greater confidence.
+
+---
+
+# 6. Reliability Assessment
+
+Analysts SHOULD summarize source reliability using the following qualitative ratings.
+
+## High Reliability
+
+Characteristics:
+
+- Original evidence
+- Well documented
+- Independently corroborated
+- Technically detailed
+- Transparent methodology
+
+Examples:
+
+- Vendor forensic reports
 - Government advisories
-- Vendor technical analyses
-- Digital forensic reports
-- Academic research
-- Court records
-- Official incident reports
+- Court documents
+- Academic publications
+- Incident response reports
 
 ---
 
 ## Moderate Reliability
 
-Characteristics include:
+Characteristics:
 
-- Secondary reporting
-- Credible journalism
-- Industry analysis
-- Independent summaries
-- Professional blogs with cited evidence
-
-Information should be corroborated whenever practical.
+- Generally credible
+- Limited corroboration
+- Some methodological uncertainty
 
 Examples:
 
-- Technology news
-- Industry white papers
-- Security conference presentations
-- Books
-- Professional publications
+- Industry analysis
+- Professional journalism
+- Conference presentations
 
 ---
 
 ## Low Reliability
 
-Characteristics include:
+Characteristics:
 
-- Anonymous reporting
-- Unsourced claims
-- Speculation
-- Rumors
-- Opinion pieces
-- Social media without supporting evidence
-
-These sources should not independently support analytical conclusions.
+- Anonymous sourcing
+- Limited technical detail
+- No corroboration
+- Unclear methodology
 
 Examples:
 
-- Anonymous forum posts
-- Unsourced blog articles
-- Unverified screenshots
-- Social media speculation
+- Unverified social media
+- Speculative reporting
+- Rumors
+
+Low reliability does not necessarily imply false information.
 
 ---
 
-# 4. Primary vs Secondary Sources
+# 7. Corroboration Levels
 
-## Primary Sources
+CTAR recognizes four corroboration states.
 
-Primary sources originate from direct participants or original evidence.
+| Level | Description |
+|---------|-------------|
+| Confirmed | Supported by multiple independent sources |
+| Corroborated | Supported by at least one independent source |
+| Unconfirmed | Reported by a single source |
+| Contradicted | Conflicts with available evidence |
 
-Examples include:
-
-- CERT advisories
-- Incident response reports
-- Malware analysis
-- Reverse engineering reports
-- Vendor bulletins
-- Court filings
-
-Primary sources **SHOULD** be preferred whenever available.
+Corroboration SHALL be distinguished from reliability.
 
 ---
 
-## Secondary Sources
+# 8. Source Bias
 
-Secondary sources interpret or summarize primary sources.
+Analysts SHOULD consider potential bias.
 
-Examples include:
+Sources may exhibit:
 
-- News articles
-- Books
-- Academic summaries
-- Industry reports
+- Commercial interests
+- Political interests
+- National interests
+- Ideological interests
+- Legal interests
+- Marketing objectives
 
-Secondary sources **SHOULD** be verified against primary evidence where possible.
-
----
-
-# 5. Corroboration
-
-Major analytical conclusions **SHOULD** be supported by multiple independent sources whenever practical.
-
-Conflicting reporting should be documented rather than omitted.
+Bias does not automatically invalidate evidence.
 
 ---
 
-# 6. Source Documentation
+# 9. Source Conflicts
 
-Each source should be documented with sufficient detail to permit independent verification.
-
-Recommended metadata includes:
-
-- Author
-- Organization
-- Publication Date
-- Document Title
-- URL or Identifier
-- Date Accessed
-
----
-
-# 7. AI-Generated Content
-
-Artificial Intelligence **MUST NOT** be considered a source of evidence.
-
-AI-generated content **MAY** assist analysts but **MUST NOT** be cited as supporting evidence.
-
-Analysts **MUST** remain responsible for locating and verifying original sources.
-
----
-
-# 8. Source Conflicts
-
-When sources disagree, analysts should:
+When credible sources disagree, analysts SHALL:
 
 - Document the disagreement.
-- Evaluate the credibility of each source.
-- Explain the reasoning for the adopted conclusion.
-- Adjust confidence assessments as appropriate.
+- Explain competing interpretations.
+- Assess which interpretation is better supported.
+- Reflect uncertainty in confidence assessments.
 
 ---
 
-# 9. Best Practices
+# 10. Source Summary
 
-Analysts should:
+Every CTAR SHOULD include a brief summary describing:
 
-- Prefer primary sources.
-- Seek independent corroboration.
-- Identify assumptions.
-- Distinguish facts from interpretation.
-- Document analytical limitations.
-- Avoid circular citations.
+- Number of sources reviewed
+- Diversity of sources
+- Degree of corroboration
+- Overall reliability
 
----
-
-# 10. Examples
-
-| Source | Reliability |
-|----------|-------------|
-| CERT Advisory | High |
-| Microsoft Security Bulletin | High |
-| Vendor Malware Analysis | High |
-| Peer-Reviewed Journal | High |
-| Government Report | High |
-| Industry White Paper | Moderate |
-| Technology News | Moderate |
-| Conference Presentation | Moderate |
-| Personal Blog | Low–Moderate |
-| Anonymous Forum | Low |
-| Social Media Post | Low |
-| AI Chat Response | Not Evidence |
+This summary improves transparency without requiring readers to examine every citation.
 
 ---
 
-# 11. Evidence Register Requirements
+# 11. Limitations
 
-Each Evidence Register entry **MUST** receive one reliability rating:
+Analysts SHALL recognize that:
 
-- **High** – Primary, authoritative, transparent, corroborated.
-- **Moderate** – Credible secondary reporting requiring corroboration.
-- **Low** – Opinion, rumor, anonymous, or unverified reporting.
+- Reliable sources may later be corrected.
+- Emerging incidents often contain incomplete information.
+- Attribution remains inherently uncertain.
+- Intelligence evolves over time.
 
-Reliability applies to the individual evidence item, not merely the originating organization.
-
+Source evaluation is therefore iterative rather than permanent.
 
 ---
 
-# 12. Relationship to Confidence
+# Revision History
 
-Source Reliability evaluates the trustworthiness of evidence.
-
-Confidence Assessment evaluates the analyst's confidence in a conclusion.
-
-The two concepts are related but independent.
-
-High-quality sources do not automatically produce high-confidence assessments, nor do low-confidence assessments necessarily imply poor sources.
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original Source Reliability Matrix |
+| 2.0.0 | 2026-07-06 | Replaced organizational tiering with multidimensional source evaluation. Introduced standardized evaluation criteria, corroboration levels, conflict resolution guidance, and source summary requirements. |

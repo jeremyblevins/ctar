@@ -1,223 +1,122 @@
 # CTAR Style Guide (CTAR-SG)
 
-**Document ID:** CTAR-SG  
-**Version:** 1.1.0  
-**Status:** Current  
-**Effective Date:** 1 July 2026
-
----
-
-
-## Normative Language
-
-The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this document are to be interpreted as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capital letters.
+**Version:** 2.0.0  
+**Status:** Draft Standard
 
 ---
 
 # 1. Purpose
 
-The CTAR Style Guide establishes formatting, terminology, and writing conventions for all Cyber Threat Assessment Reports (CTARs).
+The CTAR Style Guide establishes editorial and formatting conventions for Cyber Threat Assessment Reports (CTARs).
 
-Its purpose is to ensure that CTAR products are clear, consistent, professional, and easily understood by technical and non-technical audiences.
+Its purpose is to ensure consistency, readability, and professionalism across all official CTAR publications.
+
+This document governs presentation only. Analytical methodology is defined in CTAR-MS.
 
 ---
 
 # 2. Writing Principles
 
-CTAR reports should be:
+CTAR reports SHOULD be:
 
 - Clear
 - Concise
-- Accurate
 - Objective
-- Evidence-based
-- Reproducible
+- Precise
+- Technically accurate
+- Accessible to the intended audience
 
-Avoid unnecessary jargon whenever plain language conveys the same meaning.
+Avoid unnecessary complexity.
+
+Prefer direct language over rhetorical or sensational language.
 
 ---
 
-# 3. Voice and Tone
+# 3. Tone
 
-Use:
+CTAR uses an analytical tone.
 
-- Third-person perspective
-- Professional language
-- Objective wording
-- Neutral tone
+Reports SHOULD:
 
-Avoid:
-
-- Personal opinions
-- Emotional language
-- Marketing language
-- Sensationalism
-
-Example:
+- State observations objectively.
+- Avoid emotional language.
+- Avoid advocacy.
+- Avoid speculation presented as fact.
+- Avoid marketing language.
 
 Preferred:
 
-> The malware propagated through email attachments.
+> Evidence indicates...
 
-Not:
+> Available reporting suggests...
 
-> The devastating malware aggressively attacked victims.
+> Analysis assesses...
 
----
+Avoid:
 
-# 4. Tense
+> It is obvious...
 
-Use:
+> Clearly...
 
-Past tense
+> Everyone knows...
 
-- Historical assessments
-- Completed incidents
-
-Present tense
-
-- Current framework guidance
-- General technical facts
-- Ongoing threats where appropriate
+> Without question...
 
 ---
 
-# 5. Terminology
+# 4. Analytical Language
 
-Use standardized cybersecurity terminology whenever practical.
+CTAR distinguishes between several forms of analytical expression.
 
-Examples:
+## Observation
 
-- Indicator of Compromise (IOC)
-- Tactics, Techniques, and Procedures (TTPs)
-- Initial Access
-- Command and Control (C2)
-- Privilege Escalation
-- Defense Evasion
-
-Avoid unexplained abbreviations.
-
----
-
-# 6. Headings
-
-Recommended hierarchy:
-
-# Report Title
-
-## Major Section
-
-### Subsection
-
-#### Supporting Topic
-
-Avoid deeper heading levels unless necessary.
-
----
-
-# 7. Lists
-
-Use bulleted lists for:
-
-- Characteristics
-- Recommendations
-- Evidence
-
-Use numbered lists only when sequence matters.
-
----
-
-# 8. Tables
-
-Tables should be used for structured information.
-
-Examples:
-
-- Timelines
-- IOC summaries
-- ATT&CK mappings
-- Confidence assessments
-- Source reliability
-
-Every table should include descriptive column headings.
-
----
-
-# 9. Dates and Times
-
-Use ISO 8601 format whenever practical.
+A directly observable fact.
 
 Example:
 
-2026-07-01
-
-Spell out historical dates when appropriate for readability.
+"The vulnerability was assigned CVE-2026-12345."
 
 ---
 
-# 10. Numbers
+## Evidence
 
-Spell out numbers one through nine.
-
-Use numerals for:
-
-- Measurements
-- Dates
-- Technical values
-- Versions
-- Percentages
+Information supported by one or more sources.
 
 Example:
 
-Approximately 45 million systems.
+"Vendor telemetry identified exploitation beginning on 4 July."
 
 ---
 
-# 11. Citations
+## Assessment
 
-Prefer primary sources.
+An analytical judgment based on available evidence.
 
-Where possible, cite:
+Example:
 
-- Government publications
-- Vendor advisories
-- Academic research
-- Official documentation
-
-Avoid citing AI-generated text as evidence.
+"The activity is assessed to be opportunistic."
 
 ---
 
-# 12. Figures and Images
+## Assumption
 
-Images should:
+A condition accepted because information is incomplete.
 
-- Support analytical findings.
-- Include captions.
-- Identify the source.
-- Respect copyright restrictions.
-
-Decorative images should be avoided.
+Assumptions SHOULD be explicitly identified.
 
 ---
 
-# 13. Code and Technical Content
+## Estimate
 
-Use fenced code blocks for:
+A reasoned judgment regarding future or unknown conditions.
 
-- Commands
-- Configuration
-- File names
-- Registry paths
-- Scripts
-
-Operational exploit code should not be included in public CTARs.
+Estimates SHOULD identify supporting rationale.
 
 ---
 
-# 14. Confidence Language
+# 5. Confidence Statements
 
-Confidence assessments should use standardized terms.
+Confidence SHALL be expressed using standardized terminology.
 
 Approved values:
 
@@ -225,121 +124,138 @@ Approved values:
 - Moderate
 - Low
 
-Avoid:
+Confidence reflects the quality and consistency of available evidence.
 
-- Very High
-- Fairly Certain
-- Maybe
-- Probably
+Confidence does not represent statistical probability.
 
 ---
 
-# 15. AI Disclosure
+# 6. Terminology
 
-Material AI assistance should be acknowledged when appropriate.
+Use consistent terminology throughout the CTAR Framework.
 
-Routine proofreading or grammar correction need not be disclosed.
+Preferred terms include:
 
----
+- Threat Actor
+- Campaign
+- Indicator of Compromise (IOC)
+- Tactics, Techniques, and Procedures (TTPs)
+- Evidence
+- Assessment
+- Confidence
+- Assumption
+- Estimate
 
-# 16. Accessibility
-
-CTAR reports should:
-
-- Use descriptive headings.
-- Avoid unnecessary color dependence.
-- Use meaningful table headings.
-- Provide alt text for images where supported.
-
----
-
-# 17. File Naming
-
-Framework Documents
-
-CTAR-MS.md
-
-CTAR-SG.md
-
-CTAR-DAP.md
-
-Historical Reports
-
-CTAR-1988-0001-Morris-Worm.md
-
-CTAR-2000-0002-ILOVEYOU.md
-
-Supporting Documents
-
-CHANGELOG.md
-
-ROADMAP.md
-
-README.md
+Avoid introducing multiple terms for the same concept within a report.
 
 ---
 
-# 18. Versioning
+# 7. Acronyms
 
-Framework documents shall include:
-
-- Document ID
-- Version
-- Status
-- Effective Date
-
-CTAR reports shall include:
-
-- CTAR ID
-- Report Version
-- Framework Version
-
----
-
-# 20. Evidence Traceability Standard
-
-## Evidence Identifiers
-
-Evidence identifiers **MUST** use the format:
-
-- E-001
-- E-002
-- E-003
-
-## Inline Evidence Citations
-
-Evidence **MUST** be cited inline using Evidence IDs.
+Spell out acronyms on first use.
 
 Example:
 
-> The Department of Justice announced charges against the subject [E-001].
+> Indicators of Compromise (IOCs)
 
-## Required Appendices
-
-Every CTAR **MUST** include:
-
-- Appendix A – Evidence Register
-- Appendix B – Evidence Traceability Matrix (ETM)
-
-## Evidence Register
-
-The Evidence Register **MUST** contain the following columns:
-
-- Evidence ID
-- Evidence
-- Type
-- Publication Date
-- Source Organization
-- Reliability
-- Authenticity
-- Used In
-- Hyperlink
-
-Hyperlinks **SHOULD** reference the original source whenever practical.
-
+Common cybersecurity terms widely recognized by the intended audience MAY be exempt.
 
 ---
 
-# 19. Relationship to Other CTAR Documents
+# 8. Numbers and Dates
 
-This Style Guide supports all documents within the CTAR Framework and should be used in conjunction with the Methodology Specification and Report Template.
+Use:
+
+- ISO 8601 dates where practical.
+- Coordinated Universal Time (UTC) when precision is important.
+- Metric units where applicable.
+- Standard cybersecurity notation for ports, IP addresses, hashes, and CVEs.
+
+Examples:
+
+2026-07-06
+
+14:35 UTC
+
+TCP/443
+
+SHA-256
+
+---
+
+# 9. Citations
+
+Sources SHOULD:
+
+- Be complete.
+- Be traceable.
+- Cite original sources whenever practical.
+- Distinguish between primary and secondary reporting.
+
+Avoid excessive citation of derivative reporting.
+
+---
+
+# 10. Tables and Figures
+
+Every table or figure SHOULD include:
+
+- Title
+- Number
+- Source (if applicable)
+
+Figures SHALL support the analysis rather than decorate the report.
+
+---
+
+# 11. Lists
+
+Bulleted lists SHOULD be used for:
+
+- Recommendations
+- Indicators
+- Findings
+- Procedures
+
+Numbered lists SHOULD be used only when sequence is significant.
+
+---
+
+# 12. Formatting
+
+Official CTAR reports SHOULD:
+
+- Use consistent heading hierarchy.
+- Number major sections.
+- Use tables where appropriate.
+- Clearly separate evidence from assessment.
+- Maintain consistent typography throughout the document.
+
+---
+
+# 13. Inclusive and Neutral Language
+
+Reports SHOULD avoid language that:
+
+- Attributes motive without evidence.
+- Uses unnecessary national or cultural stereotypes.
+- Implies certainty beyond available evidence.
+
+Technical precision should always take precedence over rhetorical impact.
+
+---
+
+# 14. Revision History
+
+Published CTAR reports SHOULD include a revision history when substantive updates occur after initial publication.
+
+Each revision SHOULD summarize significant analytical or editorial changes.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0.0 | Initial Release | Original Style Guide |
+| 2.0.0 | 2026-07-06 | Reorganized as an editorial standard. Added standardized analytical language, confidence terminology, formatting conventions, citation guidance, and neutral writing principles. |
