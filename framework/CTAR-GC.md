@@ -164,6 +164,14 @@ Future governance enhancements may include:
 -   API governance
 -   Collaborative editorial workflows
 
+## 16. Publication File Naming
+
+Official CTAR publications SHALL use the standardized filename convention:
+
+`CTAR-<YEAR>-<CLASS>-<SEQUENCE>-<DESCRIPTOR>.<EXT>`
+
+Where the descriptor is uppercase and hyphen-separated. All derivative artifacts (Markdown, PDF, HTML, DOCX, etc.) SHALL share the identical basename and differ only by file extension.
+
 ## Revision History
 
   -----------------------------------------------------------------------

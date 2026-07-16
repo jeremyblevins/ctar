@@ -86,3 +86,12 @@ attached.
 ## Versioning
 
 Semantic Versioning is adopted.
+
+
+## Publication Filename Convention
+
+All official CTAR artifacts SHALL use:
+
+`CTAR-<YEAR>-<CLASS>-<SEQUENCE>-<DESCRIPTOR>.<EXT>`
+
+All derivative publication formats SHALL retain the identical basename.
